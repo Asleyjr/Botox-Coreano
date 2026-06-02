@@ -1045,7 +1045,7 @@
           "labelId": "Onboarding.Swell.Options1"
         },
         {
-          "image": "whatever-woman-emoji.webp ",
+          "image": "whatever-woman-emoji.webp",
           "labelId": "Onboarding.Swell.Options2"
         },
         {
@@ -1421,7 +1421,7 @@
       "order": 31,
       "options": [
         {
-          "image": "breaks-out-white.webp ",
+          "image": "breaks-out-white.webp",
           "labelId": "Onboarding.SkinProblems.Option1"
         },
         {
