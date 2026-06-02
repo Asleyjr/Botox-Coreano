@@ -1,0 +1,169 @@
+
+ Quiz rodando em: http://localhost:8080
+
+ Arquivos locais + API proxied para quiz.mimika-app.com
+ Pressione Ctrl+C para parar.
+
+[FILE]  /index.html
+[FILE]  /_next/static/media/c4b700dcb2187787-s.p.woff2
+[FILE]  /_next/static/media/e4af272ccee01ff0-s.p.woff2
+[FILE]  /_next/static/media/82050c55ac1c8c11-s.p.woff2
+[FILE]  /_next/static/media/851c14db057e20c2-s.p.woff2
+[FILE]  /_next/static/media/1f3fe8c6df3d47c1-s.p.woff2
+[FILE]  /_next/static/media/e807dee2426166ad-s.p.woff2
+[FILE]  /_next/static/css/e52cbe21de477fe6.css
+[FILE]  /_next/static/css/ed843738952080d4.css
+[FILE]  /_next/static/chunks/webpack-82197fb9064b9f98.js
+[FILE]  /_next/static/chunks/framework-2b4a743018f92f16.js
+[FILE]  /_next/static/chunks/main-fb2775a0eeb745d1.js
+[FILE]  /_next/static/chunks/pages/_app-e96072c9643c8a24.js
+[FILE]  /_next/static/chunks/4587-e51feb8830ff9096.js
+[FILE]  /_next/static/chunks/2565-56e7883376c99ac1.js
+[FILE]  /_next/static/chunks/5576-75bc6b5446491b00.js
+[FILE]  /_next/static/chunks/7679-c2006fa72ec49faa.js
+[FILE]  /_next/static/chunks/pages/quiz-6a267026b4c80c01.js
+[FILE]  /_next/static/QvAKja5YmxMThVKUOvlTb/_buildManifest.js
+[FILE]  /_next/static/QvAKja5YmxMThVKUOvlTb/_ssgManifest.js
+[FILE]  /_next/static/chunks/8211.2b4d31b50911cd96.js
+[FILE]  /_next/static/chunks/5671.6ce391f50f98fccf.js
+[FILE]  /_next/static/css/ed843738952080d4.css
+[FILE]  /_next/static/media/e4af272ccee01ff0-s.p.woff2
+[FILE]  /_next/static/media/1f3fe8c6df3d47c1-s.p.woff2
+[FILE]  /images/welcome-loading-before-after.webp
+[FILE]  /images/header-logo.webp
+[FILE]  /images/woman-no-emoji.webp
+[FILE]  /images/sad-emoji.webp
+[FILE]  /images/welcome-loader-photos.webp
+[PROXY fallback] /images/saggy-skin-wrinkles.webp
+[PROXY fallback] /images/facial-dropping.webp
+[PROXY fallback] /images/puffiness.webp
+[PROXY fallback] /images/imbalance-proportions.webp
+[PROXY fallback] /images/drooping-eyelids.webp
+[PROXY fallback] /images/eye-bags.webp
+[PROXY fallback] /images/under-eye-wrinkles.webp
+[PROXY fallback] /images/rid-of-puffiness.webp
+[PROXY fallback] /images/double-chin.webp
+[PROXY fallback] /images/saggy-neck.webp
+[PROXY fallback] /images/cheekbones.webp
+[PROXY fallback] /images/youthful-lips.webp
+[PROXY fallback] /images/nasolabial-fold.webp
+[PROXY fallback] /images/full-face-fine-lines.webp
+[PROXY fallback] /images/forehead-creases.webp
+[PROXY fallback] /images/full-face-deep-line.webp
+[PROXY fallback] /images/tired-look.webp
+[PROXY fallback] /images/thin-skin.webp
+[PROXY fallback] /images/itchy-skin.webp
+[PROXY fallback] /images/sensitive-skin.webp
+[PROXY fallback] /images/model-for-zones-mask.webp
+[PROXY fallback] /_next/static/css/12abd999d4e3d648.css
+[PROXY fallback] /_next/static/chunks/1200.e618a497214dbb04.js
+[FILE]  /images/sad-emoji.webp
+[PROXY fallback] /images/muscle-emoji.webp
+[PROXY fallback] /images/whatever-woman-emoji.webp
+[PROXY fallback] /images/sandwich-emoji.webp
+[FILE]  /images/woman-no-emoji.webp
+[PROXY fallback] /images/bath-emoji.webp
+[PROXY fallback] /images/yoga-woman-emoji.webp
+[PROXY fallback] /images/woman-run-emoji.webp
+[PROXY fallback] /images/sun-emoji.webp
+[PROXY fallback] /images/moon-phase-emoji.webp
+[FILE]  /images/sleeping-emoji.webp
+[FILE]  /images/your-skin-summary-image.webp
+[PROXY fallback] /_next/static/css/43b65c1c661d6bae.css
+[PROXY fallback] /_next/static/chunks/520.cca28239658d9c66.js
+[PROXY fallback] /images/peace-emoji.webp
+[PROXY fallback] /images/like-emoji.webp
+[FILE]  /images/fern-leaf-background.svg
+[PROXY fallback] /images/whatever-woman-emoji.webp
+[PROXY fallback] /images/salt-emoji.webp
+[PROXY fallback] /images/muscle-emoji.webp
+[PROXY fallback] /images/water-drops-emoji.webp
+[PROXY fallback] /images/fountain-emoji.webp
+[PROXY fallback] /images/coffee-emoji.webp
+[PROXY fallback] /images/ok-hand-emoji.webp
+[FILE]  /images/skin-type-image.webp
+[PROXY fallback] /images/nose-emoji.webp
+[PROXY fallback] /images/light-moon-face.webp
+[FILE]  /images/leaf-skin-type-background.svg
+[PROXY fallback] /images/buth-woman-emoji.webp
+[FILE]  /images/lamp-emoji.webp
+[PROXY fallback] /images/skin-color-warm-ivory.webp
+[PROXY fallback] /images/skin-color-pale-ivory.webp
+[PROXY fallback] /images/skin-color-light-brown.webp
+[PROXY fallback] /images/skin-color-brown.webp
+[PROXY fallback] /images/acne-black.webp
+[PROXY fallback] /images/wrinkles-black.webp
+[PROXY fallback] /images/dullness-black.webp
+[PROXY fallback] /images/pigment-black-simple.webp
+[PROXY fallback] /images/texture-black.webp
+[PROXY fallback] /images/firmness-black.webp
+[PROXY fallback] /images/redness-black.webp
+[PROXY fallback] /images/sensitive-black.webp
+[PROXY fallback] /_next/static/css/0aa6acb714054cb1.css
+[PROXY fallback] /_next/static/chunks/3533.2f606012fc70d8ca.js
+[PROXY fallback] /images/woman-smile-emoji.webp
+[PROXY fallback] /images/shampoo-emoji.webp
+[PROXY fallback] /images/point-up-emoji.webp
+[PROXY fallback] /images/morning.webp
+[PROXY fallback] /images/evening.webp
+[PROXY fallback] /_next/static/css/cd2c2a93056d7134.css
+[PROXY fallback] /_next/static/chunks/8464.8d93aa57f260dd20.js
+[PROXY fallback] /images/square-shape.webp
+[PROXY fallback] /images/oval-shape.webp
+[PROXY fallback] /images/diamond-shape.webp
+[PROXY fallback] /images/round-shape.webp
+[PROXY fallback] /images/triangle-shape.webp
+[PROXY fallback] /images/rectangular-shape.webp
+[PROXY fallback] /_next/static/css/2ec7c216b25be251.css
+[PROXY fallback] /_next/static/chunks/2539.3dc4256797204244.js
+[PROXY fallback] /images/diagram-32.webp
+[FILE]  /images/woman-no-emoji.webp
+[FILE]  /images/sad-emoji.webp
+[PROXY fallback] /images/specific-area.webp
+[PROXY fallback] /images/jawline.webp
+[PROXY fallback] /images/like-emoji.webp
+[PROXY fallback] /images/plastic-surgery.webp
+[PROXY fallback] /images/lose-beauty.webp
+[PROXY fallback] /images/appearance-reason.webp
+[PROXY fallback] /images/achieve-results.webp
+[PROXY fallback] /images/rating.svg
+[PROXY fallback] /_next/static/css/6fb42d85365d4fbe.css
+[PROXY fallback] /_next/static/chunks/6300.bb1bd47c81ca2563.js
+[FILE]  /images/app-store-circle.svg
+[FILE]  /images/play-market.svg
+[FILE]  /images/star-rating.svg
+[FILE]  /images/location.svg
+[FILE]  /images/verified.svg
+[PROXY fallback] /icons/rating.svg
+[FILE]  /images/emoji-calendar.webp
+[PROXY fallback] /images/lasting-result.webp
+[FILE]  /images/alarm-emoji.webp
+[FILE]  /images/pencil-emoji.webp
+[PROXY fallback] /_next/static/media/slick.653a4cbb.woff
+[FILE]  /images/review-star.svg
+[FILE]  /images/header-logo.webp
+[FILE]  /images/stars-ai.webp
+[FILE]  /images/emoji-calendar.webp
+[FILE]  /images/alarm-emoji.webp
+[FILE]  /images/pencil-emoji.webp
+[FILE]  /images/doctor.webp
+[FILE]  /images/facial_drooping.webp
+[FILE]  /images/property_1_facial_drooping_3x.webp
+[FILE]  /images/sagging_skin_or_wrinkles.webp
+[FILE]  /images/property_1_sagging_skin_3x.webp
+[FILE]  /images/excess_fat_or_puffiness.webp
+[FILE]  /images/property_1_excess_fat_or_puffiness_3x.webp
+[FILE]  /images/imbalance_in_proportions.webp
+[FILE]  /images/property_1_imbalance_in_proportions_3x.webp
+[PROXY fallback] /images/boost-result-steps.webp
+[FILE]  /images/doctor.webp
+[FILE]  /images/challenges.webp
+[FILE]  /images/ar-exercises.webp
+[FILE]  /images/discover.webp
+[FILE]  /images/motivation.webp
+[FILE]  /images/jesica-prepaywall.webp
+[FILE]  /images/emoji-heart-eyes-prepaywall.webp
+[REDIRECT] Forcing client reload to /vendas for chunk request: /_next/static/chunks/pages/new-plan-paywall-375a2bb660bd8554.js
+[FILE]  /_next/static/css/5bdd737162689b0b.css
+[FILE]  /vendas.html
+[FILE]  /onboardings/onboarding_default.json

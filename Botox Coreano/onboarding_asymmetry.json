@@ -1,0 +1,1700 @@
+{
+  "way": [
+    "asymWelcome",
+    "asymJaw",
+    "asymNeck",
+    "asymBodyFeel",
+    "asymUnbalancedJaw",
+    "asymCheek",
+    "asymPhotos",
+    "asymZones",
+    "asymResult",
+    "asymPostureReshaping",
+    "asymJawPosture",
+    "asymPrevAttempts",
+    "asymPhotoEyes",
+    "asymNeckPhoto",
+    "asymScreenSitting",
+    "asymNormal",
+    "asymDiet",
+    "asymSleep",
+    "asymPillowHeight",
+    "asymGrindTeeth",
+    "asymClenchJaw",
+    "asymSleepOneSide",
+    "asymWater",
+    "asymAlco",
+    "asymActive",
+    "asymStretch",
+    "asymFatigue",
+    "asymStressAffect",
+    "asymPostureShape",
+    "asymConfidence",
+    "asymLifeChange",
+    "asymAge",
+    "asymPlanDesigned",
+    "asymMillionUsers",
+    "asymEnterEmail",
+    "asymPrepaywall"
+  ],
+  "steps": {
+    "asymWelcome": {
+      "id": "01KMFE8ED1M9PQMRXZFJHMVXB5",
+      "type": "other",
+      "image": "",
+      "order": 1,
+      "section": "Face",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymWelcome",
+      "leftImage": "",
+      "labelAlign": "start",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": false
+    },
+    "asymJaw": {
+      "id": "01KMFEBQ3DA5ABYDY0WP6RE87A",
+      "type": "singleOption",
+      "image": "",
+      "order": 2,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymJaw.option_1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymJaw.option_2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymJaw.option_3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymJaw.option_4"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymJaw.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymJaw",
+      "leftImage": "",
+      "labelAlign": "center",
+      "imageFloated": false,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymNeck": {
+      "id": "01KMFG3E3XXX9J7WS2JARXXWCT",
+      "type": "singleOption",
+      "image": "",
+      "order": 3,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymNeck.option_1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymNeck.option_2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymNeck.option_3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymNeck.option_4"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymNeck.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymNeck",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymBodyFeel": {
+      "id": "01KMFK0MEG07AJSERB1SF3J4XH",
+      "type": "other",
+      "image": "",
+      "order": 4,
+      "options": [
+        {
+          "image": "asym-body-feel-1.webp",
+          "labelId": "Onboarding.asymBodyFeel.1"
+        },
+        {
+          "image": "asym-body-feel-2.webp",
+          "labelId": "Onboarding.asymBodyFeel.2"
+        },
+        {
+          "image": "asym-body-feel-3.webp",
+          "labelId": "Onboarding.asymBodyFeel.3"
+        },
+        {
+          "image": "asym-body-feel-4.webp",
+          "labelId": "Onboarding.asymBodyFeel.4"
+        },
+        {
+          "image": "asym-body-feel-5.webp",
+          "labelId": "Onboarding.asymBodyFeel.5"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymBodyFeel.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymBodyFeel",
+      "leftImage": "",
+      "groupInRow": true,
+      "labelAlign": "start",
+      "nextButton": true,
+      "nextButtonId": "ui.continue",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymUnbalancedJaw": {
+      "id": "01KMFJ5WAMVR0Y7GTD7ZBAWN4N",
+      "type": "custom",
+      "image": "",
+      "order": 5,
+      "section": "Face",
+      "titleId": "",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymUnbalancedJaw",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1779788329964",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymUnbalancedJaw.Title",
+            "fontSize": 24,
+            "spaceTop": 16,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "paragraph",
+            "highlightContent": []
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779788444213",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymUnbalancedJaw.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 8,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "paragraph",
+            "highlightContent": [
+              {
+                "id": "Onboarding.asymUnbalancedJaw.Subtitle.highlight",
+                "color": "#CBFF5B",
+                "weight": 400,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1774343847319",
+          "content": {
+            "src": "asym-unbalanced-jaw.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 254,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 24,
+            "localized": false,
+            "objectFit": "fill",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        },
+        {
+          "id": "1779788517814",
+          "content": {
+            "type": "typography",
+            "color": "#C1C1C1",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymUnbalancedJaw.text",
+            "fontSize": 14,
+            "spaceTop": 12,
+            "textAlign": "center",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "paragraph",
+            "highlightContent": []
+          },
+          "contentType": "typography"
+        }
+      ],
+      "nextButtonId": "Onboarding.Did.You.Know.Button",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "asym-why-tense.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymCheek": {
+      "id": "01KMFJGVJVJ767TN1WGMCK7KPX",
+      "type": "singleOption",
+      "image": "",
+      "order": 6,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymCheek.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymCheek.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymCheek.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymCheek.option4"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymCheek.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymCheek",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymPhotos": {
+      "id": "01KMFT20ZH9TB9BTH545QAJZ4C",
+      "type": "singleOption",
+      "image": "",
+      "order": 7,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPhotos.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPhotos.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPhotos.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPhotos.option4"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymPhotos.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymPhotos",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymZones": {
+      "id": "01KMFV459JW80JTYGGH4PJK3VC",
+      "type": "singleOption",
+      "image": "",
+      "order": 8,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymZones.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymZones.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymZones.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymZones.option4"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymZones.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymZones",
+      "leftImage": "",
+      "labelAlign": "center",
+      "subtitleId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymResult": {
+      "id": "01KMFWY8R14BMWHS0QNCEWAWRW",
+      "type": "singleOption",
+      "image": "",
+      "order": 9,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymResult.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymResult.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymResult.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymResult.option4"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymResult.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymResult",
+      "leftImage": "",
+      "labelAlign": "center",
+      "imageFloated": false,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymPostureReshaping": {
+      "id": "01KMG0GT5141SB4DQNSKE901AQ",
+      "type": "custom",
+      "image": "",
+      "order": 10,
+      "section": "Face",
+      "titleId": "",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymPostureReshaping",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1779799115448",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymPostureReshaping.Title",
+            "fontSize": 24,
+            "spaceTop": 16,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "paragraph",
+            "highlightContent": [
+              {
+                "id": "Onboarding.asymPostureReshaping.Title.highlight",
+                "color": "#CBFF5B",
+                "weight": 700,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779799163987",
+          "content": {
+            "type": "typography",
+            "color": "#F5F5F5",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymPostureReshaping.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 8,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "paragraph",
+            "highlightContent": []
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1774358894147",
+          "content": {
+            "src": "asymPostureAffects.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 284,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 24,
+            "localized": false,
+            "objectFit": "fill",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "Onboarding.asymPostureAffects.nextButton",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "asymPostureAffects.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymJawPosture": {
+      "id": "01KMFXZ7NZC2BWCBQF6EPVFM2T",
+      "type": "singleOption",
+      "image": "",
+      "order": 11,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymJawPosture.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymJawPosture.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymJawPosture.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymJawPosture.option4"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymJawPosture.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymJawPosture",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymPrevAttempts": {
+      "id": "01KMFY3MN2DS3TZDKFPM60E127",
+      "type": "singleOption",
+      "image": "",
+      "order": 12,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPrevAttempts.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPrevAttempts.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPrevAttempts.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPrevAttempts.option4"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymPrevAttempts.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymPrevAttempts",
+      "leftImage": "",
+      "labelAlign": "center",
+      "imageFloated": false,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymPhotoEyes": {
+      "id": "01KMG66WWEAMBGMXGQXG8E5APY",
+      "type": "other",
+      "image": "",
+      "order": 13,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPhotoEyes.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPhotoEyes.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPhotoEyes.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPhotoEyes.option4"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymPhotoEyes.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymPhotoEyes",
+      "leftImage": "asym-eyes-photo.webp",
+      "labelAlign": "center",
+      "imageFloated": true,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "asym-eyes-photo.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymNeckPhoto": {
+      "id": "01KMFYCKBPTCSVS3D9GD0ZGPW2",
+      "type": "singleOption",
+      "image": "",
+      "order": 14,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymNeckPhoto.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymNeckPhoto.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymNeckPhoto.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymNeckPhoto.option4"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymNeckPhoto.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymNeckPhoto",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymScreenSitting": {
+      "id": "01KMG5N3GAFRW7XG2F63X3JMA9",
+      "type": "singleOption",
+      "image": "",
+      "order": 15,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymScreenSitting.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymScreenSitting.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymScreenSitting.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymScreenSitting.option4"
+        }
+      ],
+      "section": "Face",
+      "titleId": "Onboarding.asymScreenSitting.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymScreenSitting",
+      "leftImage": "",
+      "labelAlign": "center",
+      "imageFloated": false,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymNormal": {
+      "id": "01KMJ01C1H9YQ8VVSWA3X266Q2",
+      "type": "other",
+      "image": "",
+      "order": 16,
+      "section": "Face",
+      "titleId": "",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymNormal",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1774425238477",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymNormal.Title",
+            "fontSize": 24,
+            "spaceTop": 0,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "title",
+            "highlightContent": [
+              {
+                "id": "Onboarding.asymNormal.Title.highlight",
+                "color": "#CBFF5B",
+                "weight": 700,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1774425393164",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymNormal.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 0,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "paragraph",
+            "highlightContent": [
+              {
+                "id": "Onboarding.asymNormal.Subtitle.highlight",
+                "color": "#CBFF5B",
+                "weight": 400,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1774425514043",
+          "content": {
+            "src": "asymNormal.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 382,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 16,
+            "localized": false,
+            "objectFit": "contain",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "Onboarding.asymNormal.nextButton",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "asymNormal.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymDiet": {
+      "id": "01KMJ1BJ2DTC8X55ZNBM1NB3FM",
+      "type": "singleOption",
+      "image": "",
+      "order": 17,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymDiet.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymDiet.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymDiet.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymDiet.option4"
+        }
+      ],
+      "section": "Main Information",
+      "titleId": "Onboarding.asymDiet.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymDiet",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        ""
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymSleep": {
+      "id": "01KMJ2A2ATX3AA9MTGZKHJ6RZF",
+      "type": "singleOption",
+      "image": "",
+      "order": 18,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymSleep.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymSleep.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymSleep.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymSleep.option4"
+        }
+      ],
+      "section": "Main Information",
+      "titleId": "Onboarding.asymSleep.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymSleep",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        ""
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymPillowHeight": {
+      "id": "01KMJ2Z3QM0W398KV7CWMQVQ1G",
+      "type": "singleOption",
+      "image": "",
+      "order": 19,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPillowHeight.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPillowHeight.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPillowHeight.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymPillowHeight.option4"
+        }
+      ],
+      "section": "Main Information",
+      "titleId": "Onboarding.asymPillowHeight.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymPillowHeight",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymGrindTeeth": {
+      "id": "01KMJAHSRP3GNFS6EHZKRDMXJH",
+      "type": "singleOption",
+      "image": "",
+      "order": 20,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymGrindTeeth.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymGrindTeeth.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymGrindTeeth.option3"
+        }
+      ],
+      "section": "Main Information",
+      "titleId": "Onboarding.asymGrindTeeth.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymGrindTeeth",
+      "leftImage": "",
+      "labelAlign": "center",
+      "imageFloated": false,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymClenchJaw": {
+      "id": "01KMJB9AZEKSNSJVST9P6CRYVP",
+      "type": "other",
+      "image": "",
+      "order": 21,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymClenchJaw.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymClenchJaw.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymClenchJaw.option3"
+        }
+      ],
+      "section": "Main Information",
+      "titleId": "Onboarding.asymClenchJaw.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymClenchJaw",
+      "leftImage": "asymClenchJaw.webp",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "asymClenchJaw.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymSleepOneSide": {
+      "id": "01KMJE5HXBJDS5Z122Z8QPE5S3",
+      "type": "other",
+      "image": "",
+      "order": 22,
+      "section": "Main Information",
+      "titleId": "",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymSleepOneSide",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1774440181581",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymExpTension.Title",
+            "fontSize": 24,
+            "spaceTop": 0,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "title",
+            "highlightContent": [
+              {
+                "id": "Onboarding.asymExpTension.Title.highlight",
+                "color": "#CBFF5B",
+                "weight": 700,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1774440302765",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymExpTension.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 0,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "paragraph",
+            "highlightContent": [
+              {
+                "id": "Onboarding.asymExpTension.Subtitle.highlight",
+                "color": "#CBFF5B",
+                "weight": 400,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1774440330913",
+          "content": {
+            "src": "asymExpTension.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 284,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 16,
+            "localized": false,
+            "objectFit": "contain",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "Onboarding.asymSleepOneSide.nextButton",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "asymExpTension.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymWater": {
+      "id": "01KMJF54JPDJBZRY9RAJBAFB0N",
+      "type": "singleOption",
+      "image": "",
+      "order": 23,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymWater.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymWater.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymWater.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymWater.option4"
+        }
+      ],
+      "section": "Main Information",
+      "titleId": "Onboarding.asymWater.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymWater",
+      "leftImage": "",
+      "groupInRow": false,
+      "labelAlign": "center",
+      "nextButton": false,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymAlco": {
+      "id": "01KMJFSCZGEWKQH7YDGNK4RXBA",
+      "type": "singleOption",
+      "image": "",
+      "order": 24,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymAlco.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymAlco.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymAlco.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymAlco.option4"
+        }
+      ],
+      "section": "Main Information",
+      "titleId": "Onboarding.asymAlco.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymAlco",
+      "leftImage": "",
+      "labelAlign": "center",
+      "imageFloated": false,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymActive": {
+      "id": "01KMJJXT9V2J5F93PWK7R255G2",
+      "type": "other",
+      "image": "",
+      "order": 25,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymActive.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymActive.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymActive.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymActive.option4"
+        }
+      ],
+      "section": "Main Information",
+      "titleId": "Onboarding.asymActive.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymActive",
+      "leftImage": "asymActive.webp",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "asymActive.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymStretch": {
+      "id": "01KMJK0N05RP8FH2H2XPQ3GQTN",
+      "type": "other",
+      "image": "",
+      "order": 26,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymStretch.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymStretch.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymStretch.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymStretch.option4"
+        }
+      ],
+      "section": "Main Information",
+      "titleId": "Onboarding.asymStretch.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymStretch",
+      "leftImage": "asymStretch.webp",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "asymStretch.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymFatigue": {
+      "id": "01KSMKRPZ318W6S97RYNNR3N17",
+      "type": "custom",
+      "image": "",
+      "order": 27,
+      "section": "Main Information",
+      "titleId": "",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymFatigue",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1779881830471",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymFatigue.Title",
+            "fontSize": 24,
+            "spaceTop": 16,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "title",
+            "highlightContent": []
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779881955717",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymFatigue.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 8,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "paragraph",
+            "highlightContent": [
+              {
+                "id": "Onboarding.asymFatigue.Subtitle.highlight",
+                "color": "#CBFF5B",
+                "weight": 400,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779882013596",
+          "content": {
+            "src": "asymFatigue.webp",
+            "type": "image",
+            "align": "center",
+            "width": 327,
+            "height": 322,
+            "spaceX": 24,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 16,
+            "localized": false,
+            "objectFit": "fill",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "Onboarding.asymFatigue.nextButton",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "asymFatigue.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymStressAffect": {
+      "id": "01KMJK7NVDBDB09FWYRFRP6EGB",
+      "type": "singleOption",
+      "image": "",
+      "order": 28,
+      "options": [
+        {
+          "image": "",
+          "labelId": "1"
+        },
+        {
+          "image": "",
+          "labelId": "2"
+        },
+        {
+          "image": "",
+          "labelId": "3"
+        },
+        {
+          "image": "",
+          "labelId": "4"
+        },
+        {
+          "image": "",
+          "labelId": "5"
+        }
+      ],
+      "section": "Motivation",
+      "titleId": "Onboarding.asymStressAffect.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymStressAffect",
+      "leftImage": "",
+      "groupInRow": true,
+      "labelAlign": "start",
+      "nextButton": true,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymPostureShape": {
+      "id": "01KMJKHBEFJEK34HRSBZJNBEHB",
+      "type": "singleOption",
+      "image": "",
+      "order": 29,
+      "options": [
+        {
+          "image": "asymPostureShape-1.webp",
+          "labelId": "Onboarding.asymPostureShape.option1"
+        },
+        {
+          "image": "asymPostureShape-2.webp",
+          "labelId": "Onboarding.asymPostureShape.option2"
+        },
+        {
+          "image": "asymPostureShape-3.webp",
+          "labelId": "Onboarding.asymPostureShape.option3"
+        },
+        {
+          "image": "asymPostureShape-4.webp",
+          "labelId": "Onboarding.asymPostureShape.option4"
+        },
+        {
+          "image": "asymPostureShape-5.webp",
+          "labelId": "Onboarding.asymPostureShape.option5"
+        },
+        {
+          "image": "asymPostureShape-6.webp",
+          "labelId": "Onboarding.asymPostureShape.option6"
+        }
+      ],
+      "section": "Motivation",
+      "titleId": "Onboarding.asymPostureShape.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymPostureShape",
+      "leftImage": "",
+      "labelAlign": "end",
+      "nextButton": false,
+      "subtitleId": "",
+      "imageFloated": true,
+      "nextButtonId": "",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "asymNotAlone.webp",
+        "emoji-heart.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymConfidence": {
+      "id": "01KMJPB372AWNTN7J1BX9WTRZX",
+      "type": "singleOption",
+      "image": "",
+      "order": 30,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymConfidence.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymConfidence.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymConfidence.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymConfidence.option4"
+        }
+      ],
+      "section": "Motivation",
+      "titleId": "Onboarding.asymConfidence.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymConfidence",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymLifeChange": {
+      "id": "01KMJQ5PZWWC658BNGJ64CHQ8Q",
+      "type": "singleOption",
+      "image": "",
+      "order": 31,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.asymLifeChange.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymLifeChange.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymLifeChange.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.asymLifeChange.option4"
+        }
+      ],
+      "section": "Motivation",
+      "titleId": "Onboarding.asymLifeChange.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymLifeChange",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "asymAfterProgram.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymAge": {
+      "id": "01KMJQGDBSY32D2JB4XJM08JBQ",
+      "type": "singleOption",
+      "image": "",
+      "order": 32,
+      "options": [
+        {
+          "image": "",
+          "labelId": "19 — 29"
+        },
+        {
+          "image": "",
+          "labelId": "30 — 39"
+        },
+        {
+          "image": "",
+          "labelId": "40 — 49"
+        },
+        {
+          "image": "",
+          "labelId": "50 +"
+        }
+      ],
+      "section": "Motivation",
+      "titleId": "Onboarding.asymAge.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymAge",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymPlanDesigned": {
+      "id": "01KMJR27CNWJJZM270XGWY032J",
+      "type": "custom",
+      "image": "",
+      "order": 33,
+      "section": "Finale",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymPlanDesigned",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1779884472825",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymPlanDesigned.Title",
+            "fontSize": 24,
+            "spaceTop": 16,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "title",
+            "highlightContent": [
+              {
+                "id": "Onboarding.asymPlanDesigned.Title.highlight",
+                "color": "#CBFF5B",
+                "weight": 700,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779884399993",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.asymPlanDesigned.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 8,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "paragraph",
+            "highlightContent": []
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1774450707759",
+          "content": {
+            "src": "asymPlanDesigned.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 378,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 16,
+            "localized": false,
+            "objectFit": "contain",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "Onboarding.asymNotAlone.NextButton",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "asymPlanDesigned.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymMillionUsers": {
+      "id": "01KMJSK20198TYPDDWEXR1WBGD",
+      "type": "other",
+      "image": "",
+      "order": 34,
+      "section": "Finale",
+      "titleId": "Onboarding.millionUsers.Title",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymMillionUsers",
+      "leftImage": "",
+      "labelAlign": "start",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "asymEnterEmail": {
+      "id": "01KMJTD6X6SY6RZS6J5J4Z8H2G",
+      "type": "other",
+      "image": "",
+      "order": 35,
+      "section": "Finale",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymEnterEmail",
+      "leftImage": "",
+      "labelAlign": "start",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": false
+    },
+    "asymPrepaywall": {
+      "id": "01KMMK1VMJ32BBVEF5XJ4RK65S",
+      "type": "other",
+      "image": "",
+      "order": 36,
+      "section": "Finale",
+      "funnelId": "ffa713b7-4edb-41ce-bff5-ff15cb6b2ed4",
+      "stepName": "asymPrepaywall",
+      "labelAlign": "start",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": false
+    }
+  }
+}

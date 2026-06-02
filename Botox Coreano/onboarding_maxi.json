@@ -1,0 +1,1904 @@
+{
+  "way": [
+    "MaxiWelcome",
+    "MaxiGymVisit",
+    "MaxiWorkSetup",
+    "MaxiMainGoal",
+    "MaxiAge",
+    "MaxiSleep",
+    "MaxiGroomingProduct",
+    "MaxiFaceShape",
+    "MaxiFacialConcern",
+    "MaxiPosture",
+    "MaxiJawline",
+    "MaxiMew",
+    "MaxiSkincare",
+    "MaxiMasculine",
+    "MaxiBetterLooking",
+    "MaxiEyebrow",
+    "MaxiGroomBrows",
+    "MaxiBeardStatus",
+    "MaxiBeardCare",
+    "MaxiHairType",
+    "MaxiHaircut",
+    "MaxiWrongFit",
+    "MaxiStyle",
+    "MaxiAfterGym",
+    "MaxiStyleChallenge",
+    "MaxiClothingBudget",
+    "MaxiShop",
+    "MaxiFirstImpression",
+    "MaxiCologne",
+    "MaxiScent",
+    "MaxiVoice",
+    "MaxiWorkVoice",
+    "MaxiPrioritizeSelf",
+    "MaxiObstacle",
+    "MaxiMillionUswrs",
+    "MaxiPrePaywall",
+    "MaxiEarn",
+    "MaxiEnterEmail"
+  ],
+  "steps": {
+    "MaxiWelcome": {
+      "id": "01KN4D26ZBW1W3DFY56CG58EED",
+      "type": "other",
+      "image": "",
+      "order": 1,
+      "section": "1",
+      "titleId": "",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiWelcome",
+      "labelAlign": "start",
+      "subtitleId": "Onboarding.MaxiWelcome.Subtitle",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": false
+    },
+    "MaxiGymVisit": {
+      "id": "01KN6WFZ947JH70PA8F358HZJ0",
+      "type": "singleOption",
+      "image": "",
+      "order": 2,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiVisitGym.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiVisitGym.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiVisitGym.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiVisitGym.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiVisitGym.option5"
+        }
+      ],
+      "section": "1",
+      "titleId": "Onboarding.MaxiVisitGym.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiGymVisit",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiWorkSetup": {
+      "id": "01KS5AKD1J9R6P0H2HEQGHEWYZ",
+      "type": "singleOption",
+      "image": "",
+      "order": 3,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiWorkSetup.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiWorkSetup.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiWorkSetup.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiWorkSetup.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiWorkSetup.option5"
+        }
+      ],
+      "section": "1",
+      "titleId": "Onboarding.MaxiWorkSetup.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiWorkSetup",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiMainGoal": {
+      "id": "01KS5APX95ZSP2DDWPSVH5KW1Q",
+      "type": "singleOption",
+      "image": "",
+      "order": 4,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMainGoal.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMainGoal.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMainGoal.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMainGoal.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMainGoal.option5"
+        }
+      ],
+      "section": "1",
+      "titleId": "Onboarding.MaxiMainGoal.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiMainGoal",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiAge": {
+      "id": "01KN6WMZQ7ENN4VZSKBTFTJQPK",
+      "type": "singleOption",
+      "image": "",
+      "order": 5,
+      "options": [
+        {
+          "image": "",
+          "labelId": "25-29"
+        },
+        {
+          "image": "",
+          "labelId": "30-34"
+        },
+        {
+          "image": "",
+          "labelId": "35-39"
+        },
+        {
+          "image": "",
+          "labelId": "40+"
+        }
+      ],
+      "section": "1",
+      "titleId": "Onboarding.MaxiAge.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiAge",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiSleep": {
+      "id": "01KN6WQB3Z6T7PM2BDD61YE62N",
+      "type": "singleOption",
+      "image": "",
+      "order": 6,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiSleep.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiSleep.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiSleep.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiSleep.option4"
+        }
+      ],
+      "section": "1",
+      "titleId": "Onboarding.MaxiSleep.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiSleep",
+      "leftImage": "",
+      "groupInRow": false,
+      "labelAlign": "center",
+      "nextButton": false,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiGroomingProduct": {
+      "id": "01KN6XDYXG0KG2B7NRJFC0XBFP",
+      "type": "custom",
+      "image": "",
+      "order": 7,
+      "section": "1",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiGroomingProduct",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1779371696900",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiGroomingProduct.Title",
+            "fontSize": 24,
+            "spaceTop": 16,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "title",
+            "highlightContent": [
+              {
+                "id": "Onboarding.MaxiGroomingProduct.Title.highlight",
+                "color": "#ED885C",
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779371753436",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiGroomingProduct.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 8,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "subtitle",
+            "highlightContent": []
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1775143732827",
+          "content": {
+            "src": "maxi-grooming-product.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 450,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 16,
+            "localized": false,
+            "objectFit": "contain",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "ui.continue",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "maxi-first-step.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiFaceShape": {
+      "id": "01KN6WTKF2RHWTQX6ZMVNRGPY3",
+      "type": "singleOption",
+      "image": "",
+      "order": 8,
+      "options": [
+        {
+          "image": "emoji-square.webp",
+          "labelId": "Onboarding.FaceShape.Options2"
+        },
+        {
+          "image": "emoji-red-circle.webp",
+          "labelId": "Onboarding.FaceShape.Options1"
+        },
+        {
+          "image": "emoji-blue-circle.webp",
+          "labelId": "Onboarding.FaceShape.Options3"
+        },
+        {
+          "image": "emoji-red-triangle.webp",
+          "labelId": "Onboarding.FaceShape.Options6"
+        },
+        {
+          "image": "emoji-white-hearth.webp",
+          "labelId": "Onboarding.MaxiFaceShape.Option5"
+        },
+        {
+          "image": "emoji-questionmark.webp",
+          "labelId": "Onboarding.MaxiFaceShape.Option6"
+        }
+      ],
+      "section": "2",
+      "titleId": "Onboarding.MaxiFaceShape.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiFaceShape",
+      "leftImage": "",
+      "labelAlign": "start",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiFacialConcern": {
+      "id": "01KN6WYQPTDY1X3HG0FPP6K347",
+      "type": "singleOption",
+      "image": "",
+      "order": 9,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiLookOnPoint.option_1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiLookOnPoint.option_2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiLookOnPoint.option_3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiLookOnPoint.option_4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiLookOnPoint.option_5"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiLookOnPoint.option_6"
+        }
+      ],
+      "section": "2",
+      "titleId": "Onboarding.MaxiFacialConcern.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiFacialConcern",
+      "leftImage": "",
+      "labelAlign": "center",
+      "imageFloated": false,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiPosture": {
+      "id": "01KN98XV72C63V9GKBBM0S1DGN",
+      "type": "singleOption",
+      "image": "",
+      "order": 10,
+      "options": [
+        {
+          "image": "emoji-boy-standing.webp",
+          "labelId": "Onboarding.MaxiPosture.option_1"
+        },
+        {
+          "image": "emoji-man-standing.webp",
+          "labelId": "Onboarding.MaxiPosture.option_2"
+        },
+        {
+          "image": "emoji-boy-bowing.webp",
+          "labelId": "Onboarding.MaxiPosture.option_3"
+        },
+        {
+          "image": "emoji-hand-with-phone.webp",
+          "labelId": "Onboarding.MaxiPosture.option_4"
+        },
+        {
+          "image": "emoji-laptop.webp",
+          "labelId": "Onboarding.MaxiPosture.option_5"
+        }
+      ],
+      "section": "2",
+      "titleId": "Onboarding.MaxiPosture.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiPosture",
+      "leftImage": "",
+      "labelAlign": "start",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiJawline": {
+      "id": "01KN9A5F496CKQY3M6C6P3XVTS",
+      "type": "singleOption",
+      "image": "",
+      "order": 11,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiJawline.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiJawline.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiJawline.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiJawline.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiJawline.option5"
+        }
+      ],
+      "section": "2",
+      "titleId": "Onboarding.MaxiJawline.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiJawline",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiMew": {
+      "id": "01KN9B1AT99S9Y8GJ9C2H20569",
+      "type": "singleOption",
+      "image": "",
+      "order": 12,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMew.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMew.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMew.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMew.option4"
+        }
+      ],
+      "section": "2",
+      "titleId": "Onboarding.MaxiMew.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiMew",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiSkincare": {
+      "id": "01KN9B5NH7H3GWK84N4MZTG3M2",
+      "type": "singleOption",
+      "image": "",
+      "order": 13,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiSkincare.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiSkincare.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiSkincare.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiSkincare.option4"
+        }
+      ],
+      "section": "2",
+      "titleId": "Onboarding.MaxiSkincare.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiSkincare",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "maxi-helpful-support.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiMasculine": {
+      "id": "01KN9HQ32RQ9MCVNYNME1W2TBV",
+      "type": "singleOption",
+      "image": "",
+      "order": 14,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMasculine.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMasculine.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMasculine.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiMasculine.option4"
+        }
+      ],
+      "section": "2",
+      "titleId": "Onboarding.MaxiMasculine.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiMasculine",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "maxi-hair-satisfied.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiBetterLooking": {
+      "id": "01KN9J8YRFVGWH59DZHFHRCVXM",
+      "type": "custom",
+      "image": "",
+      "order": 15,
+      "options": [
+        {
+          "image": "emoji-bold.webp",
+          "labelId": "Onboarding.MaxiHairWorries.option1"
+        },
+        {
+          "image": "emoji-hair-cut.webp",
+          "labelId": "Onboarding.MaxiHairWorries.option2"
+        },
+        {
+          "image": "emoji-hair-message.webp",
+          "labelId": "Onboarding.MaxiHairWorries.option3"
+        },
+        {
+          "image": "emoji-albinos.webp",
+          "labelId": "Onboarding.MaxiHairWorries.option4"
+        },
+        {
+          "image": "emoji-good-boi.webp",
+          "labelId": "Onboarding.MaxiHairWorries.option5"
+        }
+      ],
+      "section": "2",
+      "titleId": "",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiBetterLooking",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1779374841710",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiBetterLooking.Title",
+            "fontSize": 24,
+            "spaceTop": 16,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "title",
+            "highlightContent": [
+              {
+                "id": "Onboarding.MaxiBetterLooking.Title.highlight",
+                "color": "#ED885C",
+                "weight": 700,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779374883829",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiBetterLooking.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 8,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "subtitle",
+            "highlightContent": []
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779374936376",
+          "content": {
+            "src": "maxi-betterloking.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 444,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 24,
+            "localized": false,
+            "objectFit": "fill",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "ui.continue",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiEyebrow": {
+      "id": "01KN9JCD7G0HXSG1KCM3SKAF3J",
+      "type": "singleOption",
+      "image": "",
+      "order": 16,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiEyebrow.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiEyebrow.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiEyebrow.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiEyebrow.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiEyebrow.option5"
+        }
+      ],
+      "section": "3",
+      "titleId": "Onboarding.MaxiEyebrow.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiEyebrow",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiGroomBrows": {
+      "id": "01KN9JPQ0CD1K6NQJR5ZQQ2DY8",
+      "type": "singleOption",
+      "image": "",
+      "order": 17,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiGroomBrows.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiGroomBrows.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiGroomBrows.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiGroomBrows.option4"
+        }
+      ],
+      "section": "3",
+      "titleId": "Onboarding.MaxiGroomBrows.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiGroomBrows",
+      "leftImage": "",
+      "labelAlign": "center",
+      "nextButton": false,
+      "contentItems": [
+        {
+          "id": "1775216656588",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiPeopleNoticeHair.Title",
+            "fontSize": 24,
+            "spaceTop": 0,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "title",
+            "highlightContent": [
+              {
+                "id": "Onboarding.MaxiPeopleNoticeHair.Title.highlight",
+                "color": "#ED885C",
+                "weight": 700,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1775216746451",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiPeopleNoticeHair.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 0,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "paragraph",
+            "highlightContent": [
+              {
+                "id": "Onboarding.MaxiPeopleNoticeHair.Subtitle.highlight",
+                "color": "#ED885C",
+                "weight": 400,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1775467003808",
+          "content": {
+            "src": "maxi-people-notice-hair.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 373,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 16,
+            "localized": false,
+            "objectFit": "contain",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "maxi-people-notice-hair.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiBeardStatus": {
+      "id": "01KN9K0FD9CKMC8KJK5WNAWWAJ",
+      "type": "singleOption",
+      "image": "",
+      "order": 18,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiBeardStatus.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiBeardStatus.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiBeardStatus.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiBeardStatus.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiBeardStatus.option5"
+        }
+      ],
+      "section": "3",
+      "titleId": "Onboarding.MaxiBeardStatus.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiBeardStatus",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiBeardCare": {
+      "id": "01KN9NCPTMR57S8QSP6NGJMNCM",
+      "type": "singleOption",
+      "image": "",
+      "order": 19,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiBeardCare.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiBeardCare.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiBeardCare.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiBeardCare.option4"
+        }
+      ],
+      "section": "3",
+      "titleId": "Onboarding.MaxiBeardCare.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiBeardCare",
+      "leftImage": "",
+      "labelAlign": "center",
+      "imageFloated": true,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiHairType": {
+      "id": "01KN9NWBQS1H4RNNDKXDSTQ5QC",
+      "type": "singleOption",
+      "image": "",
+      "order": 20,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHairType.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHairType.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHairType.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHairType.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHairType.option5"
+        }
+      ],
+      "section": "3",
+      "titleId": "Onboarding.MaxiHairType.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiHairType",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiHaircut": {
+      "id": "01KN9NWKJ0SMT12CJCFHDZ8S10",
+      "type": "singleOption",
+      "image": "",
+      "order": 21,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHaircut.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHaircut.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHaircut.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHaircut.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHaircut.option5"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHaircut.option6"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiHaircut.option7"
+        }
+      ],
+      "section": "3",
+      "titleId": "Onboarding.MaxiHaircut.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiHaircut",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiWrongFit": {
+      "id": "01KN9P8ZNPHMW92EEXAK3EBQWW",
+      "type": "custom",
+      "image": "",
+      "order": 22,
+      "section": "3",
+      "titleId": "",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiWrongFit",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1779376913100",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiWrongFit.Title",
+            "fontSize": 24,
+            "spaceTop": 16,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "title",
+            "highlightContent": [
+              {
+                "id": "Onboarding.MaxiWrongFit.Title.highlight",
+                "color": "#ED885C",
+                "weight": 700,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779376961926",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiWrongFit.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 8,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "subtitle",
+            "highlightContent": []
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779376999353",
+          "content": {
+            "src": "maxi-wrong-outfit.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 449,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 16,
+            "localized": false,
+            "objectFit": "fill",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "ui.continue",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "maxi-body-change.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiStyle": {
+      "id": "01KN9QQSANTRC6CY8T9MBMD7YH",
+      "type": "singleOption",
+      "image": "",
+      "order": 23,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiStyle.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiStyle.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiStyle.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiStyle.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiStyle.option5"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiStyle.option6"
+        }
+      ],
+      "section": "4",
+      "titleId": "Onboarding.MaxiStyle.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiStyle",
+      "leftImage": "",
+      "labelAlign": "center",
+      "imageFloated": true,
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiAfterGym": {
+      "id": "01KN9QXB5BHAGF0K8B8Q36YAB9",
+      "type": "singleOption",
+      "image": "",
+      "order": 24,
+      "options": [
+        {
+          "image": "emoji-weight-squat.webp",
+          "labelId": "Onboarding.MaxiAfterGym.option1"
+        },
+        {
+          "image": "emoji-armstrong.webp",
+          "labelId": "Onboarding.MaxiAfterGym.option2"
+        },
+        {
+          "image": "emoji-man-running.webp",
+          "labelId": "Onboarding.MaxiAfterGym.option3"
+        },
+        {
+          "image": "emoji-boy-standing.webp",
+          "labelId": "Onboarding.MaxiAfterGym.option4"
+        },
+        {
+          "image": "emoji-graph-rise.webp",
+          "labelId": "Onboarding.MaxiAfterGym.option5"
+        }
+      ],
+      "section": "4",
+      "titleId": "Onboarding.MaxiAfterGym.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiAfterGym",
+      "leftImage": "",
+      "labelAlign": "start",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiStyleChallenge": {
+      "id": "01KNH7VH64RCNZQB2S12MCDETS",
+      "type": "singleOption",
+      "image": "",
+      "order": 25,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiStyleChallenge.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiStyleChallenge.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiStyleChallenge.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiStyleChallenge.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiStyleChallenge.option5"
+        }
+      ],
+      "section": "4",
+      "titleId": "Onboarding.MaxiStyleChallenge.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiStyleChallenge",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiClothingBudget": {
+      "id": "01KNH7VX3919CXV1B3AF7BS2MB",
+      "type": "singleOption",
+      "image": "",
+      "order": 26,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiClothingBudget.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiClothingBudget.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiClothingBudget.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiClothingBudget.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiClothingBudget.option5"
+        }
+      ],
+      "section": "4",
+      "titleId": "Onboarding.MaxiClothingBudget.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiClothingBudget",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiShop": {
+      "id": "01KNH7Y74H70RXNZ13KFDH1GD4",
+      "type": "singleOption",
+      "image": "",
+      "order": 27,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiShop.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiShop.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiShop.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiShop.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiShop.option5"
+        }
+      ],
+      "section": "4",
+      "titleId": "Onboarding.MaxiShop.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiShop",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiFirstImpression": {
+      "id": "01KNH8F190VVNBZZMPGJ3SMES5",
+      "type": "custom",
+      "image": "",
+      "order": 28,
+      "section": "4",
+      "titleId": "",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiFirstImpression",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1779438584429",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiFirstImpression.Title",
+            "fontSize": 26,
+            "spaceTop": 16,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "title",
+            "highlightContent": [
+              {
+                "id": "Onboarding.MaxiFirstImpression.Title.highlight",
+                "color": "#ED885C",
+                "weight": 700,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779438791083",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiFirstImpression.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 8,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "subtitle",
+            "highlightContent": []
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1775474531345",
+          "content": {
+            "src": "maxi-first-impression.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 450,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 16,
+            "localized": false,
+            "objectFit": "fill",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "ui.continue",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "maxi-strengths-and-gaps.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiCologne": {
+      "id": "01KNH8N9PDESBXXAR521QX92JF",
+      "type": "singleOption",
+      "image": "",
+      "order": 29,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiCologne.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiCologne.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiCologne.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiCologne.option4"
+        }
+      ],
+      "section": "5",
+      "titleId": "Onboarding.MaxiCologne.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiCologne",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiScent": {
+      "id": "01KNH8S32DJ73GQRMR3S1YJ0M6",
+      "type": "singleOption",
+      "image": "",
+      "order": 30,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiScent.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiScent.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiScent.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiScent.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiScent.option5"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiScent.option6"
+        }
+      ],
+      "section": "5",
+      "titleId": "Onboarding.MaxiScent.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiScent",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "maxi-budget.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiVoice": {
+      "id": "01KNH9CYS7GSW3MYABWMZ8CE2G",
+      "type": "singleOption",
+      "image": "",
+      "order": 31,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiVoice.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiVoice.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiVoice.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiVoice.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiVoice.option5"
+        }
+      ],
+      "section": "5",
+      "titleId": "Onboarding.MaxiVoice.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiVoice",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiWorkVoice": {
+      "id": "01KS7EDEMZRARJMQ4ASS93KW5X",
+      "type": "singleOption",
+      "image": "",
+      "order": 32,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiWorkVoice.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiWorkVoice.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiWorkVoice.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiWorkVoice.option4"
+        }
+      ],
+      "section": "5",
+      "titleId": "Onboarding.MaxiWorkVoice.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiWorkVoice",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiPrioritizeSelf": {
+      "id": "01KNH9VT8A3HBS8MPX2FVCAVBK",
+      "type": "custom",
+      "image": "",
+      "order": 33,
+      "section": "5",
+      "titleId": "",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiPrioritizeSelf",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1779440496602",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiPrioritizeSelf.Title",
+            "fontSize": 24,
+            "spaceTop": 16,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "paragraph",
+            "highlightContent": [
+              {
+                "id": "Onboarding.MaxiPrioritizeSelf.Title.highlight",
+                "color": "#ED885C",
+                "weight": 700,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779440527606",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiPrioritizeSelf.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 8,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "subtitle",
+            "highlightContent": []
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1775476005471",
+          "content": {
+            "src": "maxi-prioritize-self.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 426,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 16,
+            "localized": false,
+            "objectFit": "fill",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "ui.continue",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "maxi-system.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiObstacle": {
+      "id": "01KNHB8885ASCWV9TP54EZKZFK",
+      "type": "singleOption",
+      "image": "",
+      "order": 34,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiObstacle.option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiObstacle.option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiObstacle.option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiObstacle.option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.MaxiObstacle.option5"
+        }
+      ],
+      "section": "5",
+      "titleId": "Onboarding.MaxiObstacle.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiObstacle",
+      "leftImage": "",
+      "labelAlign": "center",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiMillionUswrs": {
+      "id": "01KNHFKQ3R0H8VM9R8QGNZPJVR",
+      "type": "other",
+      "image": "",
+      "order": 35,
+      "section": "6",
+      "titleId": "Onboarding.millionUsers.Title",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiMillionUswrs",
+      "leftImage": "",
+      "labelAlign": "start",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiPrePaywall": {
+      "id": "01KNHFN5ZHBARTD67JYZDD8NBE",
+      "type": "other",
+      "image": "",
+      "order": 36,
+      "section": "6",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiPrePaywall",
+      "labelAlign": "start",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiEarn": {
+      "id": "01KS7FJND1M6BE1GEE2THH8JDY",
+      "type": "custom",
+      "image": "",
+      "order": 37,
+      "section": "6",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiEarn",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "contentItems": [
+        {
+          "id": "1779441520778",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiEarn.Title",
+            "fontSize": 24,
+            "spaceTop": 16,
+            "textAlign": "left",
+            "fontFamily": "Merriweather",
+            "fontWeight": 700,
+            "spaceBottom": 0,
+            "typographyType": "title",
+            "highlightContent": [
+              {
+                "id": "Onboarding.MaxiEarn.Title.highlight",
+                "color": "#ED885C",
+                "weight": 700,
+                "literalInParentTranslation": "highlight"
+              }
+            ]
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779441558953",
+          "content": {
+            "type": "typography",
+            "color": "var(--main-content-primary)",
+            "spaceX": 0,
+            "spaceY": 0,
+            "textId": "Onboarding.MaxiEarn.Subtitle",
+            "fontSize": 16,
+            "spaceTop": 8,
+            "textAlign": "left",
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "spaceBottom": 0,
+            "typographyType": "subtitle",
+            "highlightContent": []
+          },
+          "contentType": "typography"
+        },
+        {
+          "id": "1779441593614",
+          "content": {
+            "src": "maxi-earn.webp",
+            "type": "image",
+            "align": "center",
+            "width": 375,
+            "height": 426,
+            "spaceX": 0,
+            "spaceY": 0,
+            "opacity": 100,
+            "spaceTop": 16,
+            "localized": false,
+            "objectFit": "fill",
+            "roundness": 0,
+            "spaceBottom": 0
+          },
+          "contentType": "image"
+        }
+      ],
+      "nextButtonId": "ui.continue",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true
+    },
+    "MaxiEnterEmail": {
+      "id": "01KNHFP6VRXGQBWQ9WZMDZ3X5T",
+      "type": "other",
+      "image": "",
+      "order": 38,
+      "section": "6",
+      "funnelId": "6ca5f022-2bd2-4730-9980-f5afdd4af5ad",
+      "stepName": "MaxiEnterEmail",
+      "labelAlign": "start",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": false
+    }
+  }
+}

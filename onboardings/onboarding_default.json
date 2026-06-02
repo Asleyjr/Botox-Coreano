@@ -1,0 +1,2269 @@
+{
+  "way": [
+    "Welcome",
+    "Age",
+    "HappyFaces",
+    "Changes",
+    "ChangesWorriesMost",
+    "FocusOn",
+    "FocusOnTwo",
+    "Wrinkles",
+    "ChangesFaced",
+    "Model",
+    "BadHabbits",
+    "EatHabits",
+    "Lifestyle",
+    "Work",
+    "SleepHabits",
+    "DarkCircles",
+    "LifestyleSummary",
+    "SugarHabits",
+    "SodiumHabits",
+    "VegetablesHabits",
+    "WaterHabits",
+    "SwellHabits",
+    "NutritionSummary",
+    "OilyShine",
+    "AfterCleanFace",
+    "SkinAcne",
+    "SkinTexture",
+    "Stress",
+    "SkinAllergies",
+    "SkinColor",
+    "SkinProblemsWhite",
+    "SkinProblemsBlack",
+    "SkinCareGoals",
+    "SkinRecommendations",
+    "EasilySpend",
+    "PracticeCare",
+    "SuitScheduleEvening",
+    "SuitScheduleMorning",
+    "FirstChanges",
+    "FaceShape",
+    "Unhappy",
+    "Jawline",
+    "PlasticSurgery",
+    "AfraidLoseBeauty",
+    "ApperanceReason",
+    "AchieveResults",
+    "MillionUsers",
+    "OneWeek",
+    "RidOf",
+    "Elimination",
+    "BoostResult",
+    "UniqueTechnologies"
+  ],
+  "steps": {
+    "Welcome": {
+      "id": "01K3NYB947NAG3P9DYWGKMJ9EK",
+      "type": "other",
+      "image": "",
+      "order": 1,
+      "section": "Goals",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Welcome",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": false,
+      "subtitleHighlightContent": []
+    },
+    "HappyFaces": {
+      "id": "01K3NZ0WK9X47TKKDPG3A5HSN3",
+      "type": "other",
+      "image": "",
+      "order": 3,
+      "section": "Goals",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "HappyFaces",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": false,
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": false,
+      "subtitleHighlightContent": []
+    },
+    "Changes": {
+      "id": "01K3NZMVW74KVH4CZH6GQC3D0P",
+      "type": "singleOption",
+      "image": "",
+      "order": 4,
+      "options": [
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.Changes.Options1"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Changes.Options2"
+        }
+      ],
+      "section": "Goals",
+      "titleId": "Onboarding.Changes.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Changes",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "woman-no-emoji.webp",
+        "sad-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "ChangesWorriesMost": {
+      "id": "01K3QXWYEJ69GDNVKK8B3MJQ5N",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 5,
+      "options": [
+        {
+          "image": "facial-dropping.webp",
+          "labelId": "Onboarding.Worries.Options1"
+        },
+        {
+          "image": "saggy-skin-wrinkles.webp",
+          "labelId": "Onboarding.Worries.Options2"
+        },
+        {
+          "image": "puffiness.webp",
+          "labelId": "Onboarding.Worries.Options3"
+        },
+        {
+          "image": "imbalance-proportions.webp",
+          "labelId": "Onboarding.Worries.Options4"
+        }
+      ],
+      "section": "Goals",
+      "titleId": "Onboarding.Worries.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "ChangesWorriesMost",
+      "leftImage": "",
+      "labelAlign": "center",
+      "nextButton": true,
+      "subtitleId": "",
+      "nextButtonId": "Onboarding.ImprovementUp.Button",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "facial-dropping.webp",
+        "saggy-skin-wrinkles.webp",
+        "puffiness.webp",
+        "imbalance-proportions.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "FocusOn": {
+      "id": "01K3R2FKNRVB52PYAFJ751V67Z",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 6,
+      "options": [
+        {
+          "image": "drooping-eyelids.webp",
+          "labelId": "Onboarding.ImprovementUp.Options1"
+        },
+        {
+          "image": "eye-bags.webp",
+          "labelId": "Onboarding.ImprovementUp.Options2"
+        },
+        {
+          "image": "rid-of-puffiness.webp",
+          "labelId": "Onboarding.ImprovementUp.Options3"
+        },
+        {
+          "image": "under-eye-wrinkles.webp",
+          "labelId": "Onboarding.ImprovementUp.Options4"
+        }
+      ],
+      "section": "Goals",
+      "titleId": "Onboarding.ImprovementUp.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "FocusOn",
+      "leftImage": "",
+      "labelAlign": "center",
+      "nextButton": true,
+      "subtitleId": "",
+      "nextButtonId": "Onboarding.ImprovementUp.Button",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "drooping-eyelids.webp",
+        "eye-bags.webp",
+        "rid-of-puffiness.webp",
+        "under-eye-wrinkles.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "FocusOnTwo": {
+      "id": "01K3RE4WGXKQ2Y7VBN090G002N",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 7,
+      "options": [
+        {
+          "image": "double-chin.webp",
+          "labelId": "Onboarding.ImprovementDown.Options1"
+        },
+        {
+          "image": "saggy-neck.webp",
+          "labelId": "Onboarding.ImprovementDown.Options2"
+        },
+        {
+          "image": "cheekbones.webp",
+          "labelId": "Onboarding.ImprovementDown.Options3"
+        },
+        {
+          "image": "youthful-lips.webp",
+          "labelId": "Onboarding.ImprovementDown.Options4"
+        }
+      ],
+      "section": "Goals",
+      "titleId": "Onboarding.ImprovementDown.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "FocusOnTwo",
+      "leftImage": "",
+      "labelAlign": "center",
+      "nextButton": true,
+      "subtitleId": "",
+      "nextButtonId": "Onboarding.ImprovementDown.Button",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "double-chin.webp",
+        "saggy-neck.webp",
+        "cheekbones.webp",
+        "youthful-lips.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "Wrinkles": {
+      "id": "01K3REB6MZ7MS8JF3YJWD0K323",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 8,
+      "options": [
+        {
+          "image": "nasolabial-fold.webp",
+          "labelId": "Onboarding.Wrinkles.Options1"
+        },
+        {
+          "image": "full-face-fine-lines.webp",
+          "labelId": "Onboarding.Wrinkles.Options2"
+        },
+        {
+          "image": "forehead-creases.webp",
+          "labelId": "Onboarding.Wrinkles.Options3"
+        },
+        {
+          "image": "full-face-deep-line.webp",
+          "labelId": "Onboarding.Wrinkles.Options4"
+        }
+      ],
+      "section": "Goals",
+      "titleId": "Onboarding.Wrinkles.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Wrinkles",
+      "leftImage": "",
+      "labelAlign": "center",
+      "nextButton": true,
+      "subtitleId": "",
+      "nextButtonId": "Onboarding.Wrinkles.Button",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "nasolabial-fold.webp",
+        "full-face-fine-lines.webp",
+        "forehead-creases.webp",
+        "full-face-deep-line.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "ChangesFaced": {
+      "id": "01K3RERFRRZDET4NQ9685TJCTM",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 9,
+      "options": [
+        {
+          "image": "tired-look.webp",
+          "labelId": "Onboarding.FacedChanges.Options1"
+        },
+        {
+          "image": "thin-skin.webp",
+          "labelId": "Onboarding.FacedChanges.Options2"
+        },
+        {
+          "image": "itchy-skin.webp",
+          "labelId": "Onboarding.FacedChanges.Options3"
+        },
+        {
+          "image": "sensitive-skin.webp",
+          "labelId": "Onboarding.FacedChanges.Options4"
+        }
+      ],
+      "section": "Goals",
+      "titleId": "Onboarding.FacedChanges.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "ChangesFaced",
+      "leftImage": "",
+      "labelAlign": "center",
+      "nextButton": true,
+      "subtitleId": "",
+      "nextButtonId": "Onboarding.FacedChanges.Button",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "tired-look.webp",
+        "thin-skin.webp",
+        "itchy-skin.webp",
+        "sensitive-skin.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "Model": {
+      "id": "01K3RF0GJ066TXMBBC2BBVCBFB",
+      "type": "other",
+      "image": "",
+      "order": 10,
+      "section": "Goals",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Model",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "model-for-zones-mask.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": false,
+      "subtitleHighlightContent": []
+    },
+    "EasilySpend": {
+      "id": "01K3RGX8VJN3DE05N7NYBQBSCX",
+      "type": "singleOption",
+      "image": "",
+      "order": 35,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.Routine.Options1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Routine.Options2"
+        }
+      ],
+      "section": "Lifestyle",
+      "titleId": "Onboarding.Routine.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "EasilySpend",
+      "leftImage": "",
+      "labelAlign": "center",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "PracticeCare": {
+      "id": "01K3RH52SHK09D3S20WRN933Y2",
+      "type": "singleOption",
+      "image": "",
+      "order": 36,
+      "options": [
+        {
+          "image": "morning.webp",
+          "labelId": "Onboarding.DayTime.Options1"
+        },
+        {
+          "image": "evening.webp",
+          "labelId": "Onboarding.DayTime.Options2"
+        }
+      ],
+      "section": "Lifestyle",
+      "titleId": "Onboarding.DayTime.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "PracticeCare",
+      "leftImage": "",
+      "labelAlign": "center",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "morning.webp",
+        "evening.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SuitScheduleEvening": {
+      "id": "01K3RJZF940WA3NVN9G172D738",
+      "type": "other",
+      "image": "",
+      "order": 37,
+      "section": "Lifestyle",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SuitScheduleEvening",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": false,
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "diagram-68.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SuitScheduleMorning": {
+      "id": "01K3RKZWV0Z243Q2MKHC8SZ1TT",
+      "type": "other",
+      "image": "",
+      "order": 38,
+      "section": "Lifestyle",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SuitScheduleMorning",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "diagram-32.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "BadHabbits": {
+      "id": "01K3TC1YHB8DVHXVV1H4YPS048",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 11,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.Habits.Options1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Habits.Options2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Habits.Options3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Habits.Options4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Habits.Options5"
+        }
+      ],
+      "section": "Lifestyle",
+      "titleId": "Onboarding.Habits.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "BadHabbits",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "subtitleId": "",
+      "nextButtonId": "Onboarding.Habits.Button",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "Onboarding.Habits.Options5",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "EatHabits": {
+      "id": "01K3TCNV1198X3173APN9BQVP1",
+      "type": "singleOption",
+      "image": "",
+      "order": 12,
+      "options": [
+        {
+          "image": "muscle-emoji.webp",
+          "labelId": "Onboarding.Meals.Options1"
+        },
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.Meals.Options2"
+        },
+        {
+          "image": "whatever-woman-emoji.webp",
+          "labelId": "Onboarding.Meals.Options3"
+        },
+        {
+          "image": "sandwich-emoji.webp",
+          "labelId": "Onboarding.Meals.Options4"
+        }
+      ],
+      "section": "Lifestyle",
+      "titleId": "Onboarding.Meals.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "EatHabits",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "muscle-emoji.webp",
+        "sad-emoji.webp",
+        "whatever-woman-emoji.webp",
+        "sandwich-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "Lifestyle": {
+      "id": "01K3TCVBJGC8DDVGJHMA3K70CF",
+      "type": "singleOption",
+      "image": "",
+      "order": 13,
+      "options": [
+        {
+          "image": "bath-emoji.webp",
+          "labelId": "Onboarding.Lifestyle.Options1"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Lifestyle.Options2"
+        },
+        {
+          "image": "yoga-woman-emoji.webp",
+          "labelId": "Onboarding.Lifestyle.Options3"
+        },
+        {
+          "image": "woman-run-emoji.webp",
+          "labelId": "Onboarding.Lifestyle.Options4"
+        }
+      ],
+      "section": "Lifestyle",
+      "titleId": "Onboarding.Lifestyle.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Lifestyle",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "bath-emoji.webp",
+        "woman-no-emoji.webp",
+        "yoga-woman-emoji.webp",
+        "woman-run-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "Work": {
+      "id": "01K3TD79DFBH4YJEBHZHVVFAFR",
+      "type": "singleOption",
+      "image": "",
+      "order": 14,
+      "options": [
+        {
+          "image": "sun-emoji.webp",
+          "labelId": "Onboarding.Schedule.Options1"
+        },
+        {
+          "image": "moon-phase-emoji.webp",
+          "labelId": "Onboarding.Schedule.Options2"
+        },
+        {
+          "image": "whatever-woman-emoji.webp",
+          "labelId": "Onboarding.Schedule.Options3"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Schedule.Options4"
+        }
+      ],
+      "section": "Lifestyle",
+      "titleId": "Onboarding.Schedule.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Work",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "sun-emoji.webp",
+        "moon-phase-emoji.webp",
+        "whatever-woman-emoji.webp",
+        "woman-no-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SleepHabits": {
+      "id": "01K3TDF1W2VNEMER0KJFHPT860",
+      "type": "singleOption",
+      "image": "",
+      "order": 15,
+      "options": [
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.Sleep.Options1"
+        },
+        {
+          "image": "whatever-woman-emoji.webp",
+          "labelId": "Onboarding.Sleep.Options2"
+        },
+        {
+          "image": "muscle-emoji.webp",
+          "labelId": "Onboarding.Sleep.Options3"
+        },
+        {
+          "image": "sleeping-emoji.webp",
+          "labelId": "Onboarding.Sleep.Options4"
+        }
+      ],
+      "section": "Lifestyle",
+      "titleId": "Onboarding.Sleep.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SleepHabits",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "sad-emoji.webp",
+        "whatever-woman-emoji.webp",
+        "muscle-emoji.webp",
+        "sleeping-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "Pregnant": {
+      "id": "01K3TDJWZN7VX5JC76SGB743KS",
+      "type": "singleOption",
+      "image": "",
+      "order": 19,
+      "options": [
+        {
+          "image": "whatever-woman-emoji.webp",
+          "labelId": "Onboarding.Pregnant.Option1"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Pregnant.Option2"
+        },
+        {
+          "image": "buth-woman-emoji.webp",
+          "labelId": "Onboarding.Pregnant.Option3"
+        },
+        {
+          "image": "peeking-eye-emoji.webp",
+          "labelId": "Onboarding.Pregnant.Option4"
+        }
+      ],
+      "section": "Lifestyle",
+      "titleId": "Onboarding.Pregnant.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Pregnant",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "whatever-woman-emoji.webp",
+        "woman-no-emoji.webp",
+        "buth-woman-emoji.webp",
+        "peeking-eye-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "DarkCircles": {
+      "id": "01K3TE21NXDSPG5B7FF8E8R1D6",
+      "type": "singleOption",
+      "image": "",
+      "order": 16,
+      "options": [
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.DarkCircles.Options1"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.DarkCircles.Options2"
+        }
+      ],
+      "section": "Lifestyle",
+      "titleId": "Onboarding.DarkCircles.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "DarkCircles",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "sad-emoji.webp",
+        "woman-no-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "LifestyleSummary": {
+      "id": "01K3TE4525WWYTS89F6H55P35T",
+      "type": "other",
+      "image": "",
+      "order": 17,
+      "section": "Lifestyle",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "LifestyleSummary",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "your-skin-summary-image.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SugarHabits": {
+      "id": "01K3TGT8S72R4TJNKK0XJNZ7RX",
+      "type": "singleOption",
+      "image": "",
+      "order": 18,
+      "options": [
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Sugar.Options1"
+        },
+        {
+          "image": "whatever-woman-emoji.webp",
+          "labelId": "Onboarding.Sugar.Options2"
+        },
+        {
+          "image": "peace-emoji.webp",
+          "labelId": "Onboarding.Sugar.Options3"
+        },
+        {
+          "image": "like-emoji.webp",
+          "labelId": "Onboarding.Sugar.Options4"
+        }
+      ],
+      "section": "Nutrition",
+      "titleId": "Onboarding.MealsWithSugar.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SugarHabits",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "woman-no-emoji.webp",
+        "whatever-woman-emoji.webp",
+        "peace-emoji.webp",
+        "like-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SodiumHabits": {
+      "id": "01K3TQF7H1N3G8MSTN4TDFZ954",
+      "type": "singleOption",
+      "image": "",
+      "order": 19,
+      "options": [
+        {
+          "image": "salt-emoji.webp",
+          "labelId": "Onboarding.Sodium.Options1"
+        },
+        {
+          "image": "whatever-woman-emoji.webp",
+          "labelId": "Onboarding.Sodium.Options2"
+        },
+        {
+          "image": "peace-emoji.webp",
+          "labelId": "Onboarding.Sodium.Options3"
+        },
+        {
+          "image": "like-emoji.webp",
+          "labelId": "Onboarding.Sodium.Options4"
+        }
+      ],
+      "section": "Nutrition",
+      "titleId": "Onboarding.Sodium.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SodiumHabits",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "salt-emoji.webp",
+        "whatever-woman-emoji.webp",
+        "peace-emoji.webp",
+        "like-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "VegetablesHabits": {
+      "id": "01K3TQJG7ANA7S1Q5DV66T82JJ",
+      "type": "singleOption",
+      "image": "",
+      "order": 20,
+      "options": [
+        {
+          "image": "muscle-emoji.webp",
+          "labelId": "Onboarding.Vegetables.Options1"
+        },
+        {
+          "image": "peace-emoji.webp",
+          "labelId": "Onboarding.Vegetables.Options2"
+        },
+        {
+          "image": "whatever-woman-emoji.webp",
+          "labelId": "Onboarding.Vegetables.Options3"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Vegetables.Options4"
+        }
+      ],
+      "section": "Nutrition",
+      "titleId": "Onboarding.Vegetables.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "VegetablesHabits",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "muscle-emoji.webp",
+        "peace-emoji.webp",
+        "whatever-woman-emoji.webp",
+        "woman-no-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "WaterHabits": {
+      "id": "01K3TQNH17YG2FDDCACNSJNWC3",
+      "type": "singleOption",
+      "image": "",
+      "order": 21,
+      "options": [
+        {
+          "image": "muscle-emoji.webp",
+          "labelId": "Onboarding.Water.Options1"
+        },
+        {
+          "image": "water-drops-emoji.webp",
+          "labelId": "Onboarding.Water.Options2"
+        },
+        {
+          "image": "fountain-emoji.webp",
+          "labelId": "Onboarding.Water.Options3"
+        },
+        {
+          "image": "coffee-emoji.webp",
+          "labelId": "Onboarding.Water.Options4"
+        }
+      ],
+      "section": "Nutrition",
+      "titleId": "Onboarding.Water.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "WaterHabits",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "muscle-emoji.webp",
+        "water-drops-emoji.webp",
+        "fountain-emoji.webp",
+        "coffee-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SwellHabits": {
+      "id": "01K3TQQS17X68SFZG7BWJSVF3B",
+      "type": "singleOption",
+      "image": "",
+      "order": 22,
+      "options": [
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.Swell.Options1"
+        },
+        {
+          "image": "whatever-woman-emoji.webp ",
+          "labelId": "Onboarding.Swell.Options2"
+        },
+        {
+          "image": "ok-hand-emoji.webp",
+          "labelId": "Onboarding.Swell.Options3"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Swell.Options4"
+        }
+      ],
+      "section": "Nutrition",
+      "titleId": "Onboarding.Swell.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SwellHabits",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "sad-emoji.webp",
+        "whatever-woman-emoji.webp",
+        "ok-hand-emoji.webp",
+        "woman-no-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "NutritionSummary": {
+      "id": "01K3TQTG44GWQNPWT2XDT7W9VT",
+      "type": "other",
+      "image": "",
+      "order": 23,
+      "section": "Nutrition",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "NutritionSummary",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "skin-type-image.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": false,
+      "subtitleHighlightContent": []
+    },
+    "OilyShine": {
+      "id": "01K3TRYJNET5BPPX8RBPVBYGCJ",
+      "type": "singleOption",
+      "image": "",
+      "order": 24,
+      "options": [
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.OilyShine.Options1"
+        },
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.OilyShine.Options2"
+        },
+        {
+          "image": "nose-emoji.webp",
+          "labelId": "Onboarding.OilyShine.Options3"
+        },
+        {
+          "image": "light-moon-face.webp",
+          "labelId": "Onboarding.OilyShine.Options4"
+        }
+      ],
+      "section": "Your Skin",
+      "titleId": "Onboarding.OilyShine.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "OilyShine",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "woman-no-emoji.webp",
+        "sad-emoji.webp",
+        "nose-emoji.webp",
+        "light-moon-face.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "AfterCleanFace": {
+      "id": "01K3TS151DA0EYVKHS750A47FT",
+      "type": "singleOption",
+      "image": "",
+      "order": 25,
+      "options": [
+        {
+          "image": "like-emoji.webp",
+          "labelId": "Onboarding.Cleansing.Options1"
+        },
+        {
+          "image": "whatever-woman-emoji.webp",
+          "labelId": "Onboarding.Cleansing.Options2"
+        },
+        {
+          "image": "water-drops-emoji.webp",
+          "labelId": "Onboarding.Cleansing.Options3"
+        },
+        {
+          "image": "buth-woman-emoji.webp",
+          "labelId": "Onboarding.Cleansing.Options4"
+        }
+      ],
+      "section": "Your Skin",
+      "titleId": "Onboarding.Cleansing.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "AfterCleanFace",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "like-emoji.webp",
+        "whatever-woman-emoji.webp",
+        "water-drops-emoji.webp",
+        "buth-woman-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SkinAcne": {
+      "id": "01K3TS3TBVV8K571G4D2QCF1CH",
+      "type": "singleOption",
+      "image": "",
+      "order": 26,
+      "options": [
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Acne.Options1"
+        },
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.Acne.Options2"
+        },
+        {
+          "image": "nose-emoji.webp",
+          "labelId": "Onboarding.Acne.Options3"
+        }
+      ],
+      "section": "Your Skin",
+      "titleId": "Onboarding.Acne.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SkinAcne",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "woman-no-emoji.webp",
+        "sad-emoji.webp",
+        "nose-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SkinTexture": {
+      "id": "01K3TS6WCSRJYZPN9J1RRQFD0Q",
+      "type": "singleOption",
+      "image": "",
+      "order": 27,
+      "options": [
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Texture.Options1"
+        },
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.Texture.Options2"
+        }
+      ],
+      "section": "Your Skin",
+      "titleId": "Onboarding.Texture.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SkinTexture",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "woman-no-emoji.webp",
+        "sad-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "Stress": {
+      "id": "01K3TS91GF9GBJXVHSA1QKHE3Q",
+      "type": "other",
+      "image": "",
+      "order": 28,
+      "options": [
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Stress.Options1"
+        },
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.Stress.Options2"
+        }
+      ],
+      "section": "Your Skin",
+      "titleId": "Onboarding.Stress.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Stress",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "woman-no-emoji.webp",
+        "sad-emoji.webp",
+        "lamp-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SkinAllergies": {
+      "id": "01K3TTVP2NCTP8C9RNT297MAP5",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 29,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.Allergies.Option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Allergies.Option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Allergies.Option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Allergies.Option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Allergies.Option5"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Allergies.Option6"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Allergies.Option7"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Allergies.Option8"
+        }
+      ],
+      "section": "Your Skin",
+      "titleId": "Onboarding.Allergies.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SkinAllergies",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "subtitleId": "",
+      "nextButtonId": "Onboarding.Allergies.Button",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "Onboarding.Allergies.Option8",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SkinColor": {
+      "id": "01K3TV5Z38HRXK25AB32B0DV20",
+      "type": "singleOption",
+      "image": "",
+      "order": 30,
+      "options": [
+        {
+          "image": "skin-color-warm-ivory.webp",
+          "labelId": "Onboarding.SkinColor.Options1"
+        },
+        {
+          "image": "skin-color-pale-ivory.webp",
+          "labelId": "Onboarding.SkinColor.Options2"
+        },
+        {
+          "image": "skin-color-light-brown.webp",
+          "labelId": "Onboarding.SkinColor.Options3"
+        },
+        {
+          "image": "skin-color-brown.webp",
+          "labelId": "Onboarding.SkinColor.Options4"
+        }
+      ],
+      "section": "Your Skin",
+      "titleId": "Onboarding.SkinColor.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SkinColor",
+      "leftImage": "",
+      "labelAlign": "center",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "skin-color-warm-ivory.webp",
+        "skin-color-pale-ivory.webp",
+        "skin-color-light-brown.webp",
+        "skin-color-brown.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SkinProblemsWhite": {
+      "id": "01K42343XXFJD2GJPBHGEA7AV8",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 31,
+      "options": [
+        {
+          "image": "breaks-out-white.webp ",
+          "labelId": "Onboarding.SkinProblems.Option1"
+        },
+        {
+          "image": "wrinkle-white.webp",
+          "labelId": "Onboarding.SkinProblems.Option2"
+        },
+        {
+          "image": "dullness-white.webp",
+          "labelId": "Onboarding.SkinProblems.Option3"
+        },
+        {
+          "image": "pigment-white.webp",
+          "labelId": "Onboarding.SkinProblems.Option4"
+        },
+        {
+          "image": "texture-white.webp",
+          "labelId": "Onboarding.SkinProblems.Option5"
+        },
+        {
+          "image": "firmness-white.webp",
+          "labelId": "Onboarding.SkinProblems.Option6"
+        },
+        {
+          "image": "redness-white.webp",
+          "labelId": "Onboarding.SkinProblems.Option7"
+        },
+        {
+          "image": "sensitive-white.webp",
+          "labelId": "Onboarding.SkinProblems.Option8"
+        },
+        {
+          "image": "skin-problems-cross.webp",
+          "labelId": "Onboarding.SkinProblems.Option9"
+        }
+      ],
+      "section": "Your Skin",
+      "titleId": "Onboarding.SkinProblems.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SkinProblemsWhite",
+      "leftImage": "",
+      "labelAlign": "center",
+      "nextButton": true,
+      "subtitleId": "",
+      "nextButtonId": "Onboarding.SkinProblems.Button",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "pigment-white.webp",
+        "wrinkle-white.webp",
+        "breaks-out-white.webp",
+        "dullness-white.webp",
+        "texture-white.webp",
+        "firmness-white.webp",
+        "redness-white.webp",
+        "sensitive-white.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "Onboarding.SkinProblems.Option9",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SkinProblemsBlack": {
+      "id": "01K423PZ4X1HZ25ZVDEMDHTBCG",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 32,
+      "options": [
+        {
+          "image": "acne-black.webp",
+          "labelId": "Onboarding.SkinProblemsD.Option1"
+        },
+        {
+          "image": "wrinkles-black.webp",
+          "labelId": "Onboarding.SkinProblemsD.Option2"
+        },
+        {
+          "image": "dullness-black.webp",
+          "labelId": "Onboarding.SkinProblemsD.Option3"
+        },
+        {
+          "image": "pigment-black-simple.webp",
+          "labelId": "Onboarding.SkinProblemsD.Option4"
+        },
+        {
+          "image": "texture-black.webp",
+          "labelId": "Onboarding.SkinProblemsD.Option5"
+        },
+        {
+          "image": "firmness-black.webp",
+          "labelId": "Onboarding.SkinProblemsD.Option6"
+        },
+        {
+          "image": "redness-black.webp",
+          "labelId": "Onboarding.SkinProblemsD.Option7"
+        },
+        {
+          "image": "sensitive-black.webp",
+          "labelId": "Onboarding.SkinProblemsD.Option8"
+        },
+        {
+          "image": "skin-problems-cross.webp",
+          "labelId": "Onboarding.SkinProblemsD.Option9"
+        }
+      ],
+      "section": "Your Skin",
+      "titleId": "Onboarding.SkinProblemsD.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SkinProblemsBlack",
+      "leftImage": "",
+      "labelAlign": "center",
+      "nextButton": true,
+      "subtitleId": "",
+      "nextButtonId": "Onboarding.SkinProblemsD.Button",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "acne-black.webp",
+        "wrinkles-black.webp",
+        "dullness-black.webp",
+        "pigment-black-simple.webp",
+        "texture-black.webp",
+        "firmness-black.webp",
+        "redness-black.webp",
+        "sensitive-black.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "Onboarding.SkinProblemsD.Option9",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SkinCareGoals": {
+      "id": "01K424J6D162BSA5995JV8Z9QQ",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 33,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.SkincareGoals.Option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.SkincareGoals.Option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.SkincareGoals.Option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.SkincareGoals.Option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.SkincareGoals.Option5"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.SkincareGoals.Option6"
+        }
+      ],
+      "section": "Your Skin",
+      "titleId": "Onboarding.SkincareGoals.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SkinCareGoals",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "subtitleId": "",
+      "nextButtonId": "Onboarding.SkincareGoals.Button",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "SkinRecommendations": {
+      "id": "01K424TB7CMT9WCZFJ9X3V9RZ6",
+      "type": "other",
+      "image": "",
+      "order": 34,
+      "section": "Your Skin",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "SkinRecommendations",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "customBgImageProperty": "#e7e4de",
+      "subtitleHighlightContent": []
+    },
+    "FirstChanges": {
+      "id": "01K426G6566PK9BC2GR28TJ7NM",
+      "type": "other",
+      "image": "",
+      "order": 39,
+      "section": "Your Skin",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "FirstChanges",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "point-up-emoji.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "Age": {
+      "id": "01K4272GPS5RZTXFYH7PW8WQDK",
+      "type": "singleOption",
+      "image": "",
+      "order": 2,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.Age.Options1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Age.Options2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Age.Options3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Age.Options4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Age.Options5"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Age.Options6"
+        }
+      ],
+      "section": "Feelings",
+      "titleId": "Onboarding.Age.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Age",
+      "leftImage": "",
+      "labelAlign": "center",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "FaceShape": {
+      "id": "01K4277HFZMYC01PDKX7CT8KCC",
+      "type": "singleOption",
+      "image": "",
+      "order": 40,
+      "options": [
+        {
+          "image": "oval-shape.webp",
+          "labelId": "Onboarding.FaceShape.Options1"
+        },
+        {
+          "image": "square-shape.webp",
+          "labelId": "Onboarding.FaceShape.Options2"
+        },
+        {
+          "image": "round-shape.webp",
+          "labelId": "Onboarding.FaceShape.Options3"
+        },
+        {
+          "image": "diamond-shape.webp",
+          "labelId": "Onboarding.FaceShape.Options4"
+        },
+        {
+          "image": "rectangular-shape.webp",
+          "labelId": "Onboarding.FaceShape.Options5"
+        },
+        {
+          "image": "triangle-shape.webp",
+          "labelId": "Onboarding.FaceShape.Options6"
+        }
+      ],
+      "section": "Feelings",
+      "titleId": "Onboarding.FaceShape.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "FaceShape",
+      "leftImage": "",
+      "labelAlign": "center",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "square",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "oval-shape.webp",
+        "square-shape.webp",
+        "round-shape.webp",
+        "diamond-shape.webp",
+        "rectangular-shape.webp",
+        "triangle-shape.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "Unhappy": {
+      "id": "01K450826YJ9GJTZATY7MR241V",
+      "type": "other",
+      "image": "",
+      "order": 41,
+      "options": [
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.UnhappyWith.Options1"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.UnhappyWith.Options2"
+        }
+      ],
+      "section": "Feelings",
+      "titleId": "Onboarding.UnhappyWith.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Unhappy",
+      "leftImage": "specific-area.webp",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "woman-no-emoji.webp",
+        "sad-emoji.webp",
+        "specific-area.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "Jawline": {
+      "id": "01K452JS48HZ2E6WP0M6N6BAYF",
+      "type": "other",
+      "image": "",
+      "order": 42,
+      "options": [
+        {
+          "image": "like-emoji.webp",
+          "labelId": "Onboarding.Jawline.Options1"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Jawline.Options2"
+        }
+      ],
+      "section": "Feelings",
+      "titleId": "Onboarding.FaceShapeJawline.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Jawline",
+      "leftImage": "jawline.webp",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "like-emoji.webp",
+        "woman-no-emoji.webp",
+        "jawline.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "PlasticSurgery": {
+      "id": "01K453D760C74SECV3A2CJCD9A",
+      "type": "other",
+      "image": "",
+      "order": 43,
+      "options": [
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.Surgery.Options1"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Surgery.Options2"
+        }
+      ],
+      "section": "Feelings",
+      "titleId": "Onboarding.Surgery.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "PlasticSurgery",
+      "leftImage": "plastic-surgery.webp",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "plastic-surgery.webp",
+        "woman-no-emoji.webp",
+        "sad-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "AfraidLoseBeauty": {
+      "id": "01K453HB95D3Q9AMRM3TSR1TXP",
+      "type": "other",
+      "image": "",
+      "order": 44,
+      "options": [
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.Afraid.Options1"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Afraid.Options2"
+        }
+      ],
+      "section": "Feelings",
+      "titleId": "Onboarding.Afraid.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "AfraidLoseBeauty",
+      "leftImage": "lose-beauty.webp",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "woman-no-emoji.webp",
+        "sad-emoji.webp",
+        "lose-beauty.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "ApperanceReason": {
+      "id": "01K453PE309TVSJKJKKYQNJY4C",
+      "type": "other",
+      "image": "",
+      "order": 45,
+      "options": [
+        {
+          "image": "sad-emoji.webp",
+          "labelId": "Onboarding.Appearance.Options1"
+        },
+        {
+          "image": "woman-no-emoji.webp",
+          "labelId": "Onboarding.Appearance.Options2"
+        }
+      ],
+      "section": "Feelings",
+      "titleId": "Onboarding.Appearance.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "ApperanceReason",
+      "leftImage": "appearance-reason.webp",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": true,
+      "imagesForPreload": [
+        "appearance-reason.webp",
+        "sad-emoji.webp",
+        "woman-no-emoji.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "Trends": {
+      "id": "01K42HB3BSRFMPXJXZBGNZXRQD",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 52,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.Feelings.AddToPlan.Option1"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Feelings.AddToPlan.Option2"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Feelings.AddToPlan.Option3"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Feelings.AddToPlan.Option4"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Feelings.AddToPlan.Option5"
+        }
+      ],
+      "section": "Feelings",
+      "titleId": "Onboarding.Feelings.AddToPlan.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Trends",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "subtitleId": "",
+      "imageFloated": false,
+      "nextButtonId": "Onboarding.Feelings.AddToPlan.Button",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "HearAboutUs": {
+      "id": "01K42HHSRN30MNRYDKAX7CYDJJ",
+      "type": "multipleOptions",
+      "image": "",
+      "order": 53,
+      "options": [
+        {
+          "image": "",
+          "labelId": "Onboarding.Sources.Options.SocialMedia"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Sources.Options.TV"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Sources.Options.Friend"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Sources.Options.Influencer"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Sources.Options.Newspaper"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Sources.Options.Youtube"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Sources.Options.Poster"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Sources.Options.Search"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Sources.Options.Radio"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Sources.Options.Pinterest"
+        },
+        {
+          "image": "",
+          "labelId": "Onboarding.Sources.Options.Other"
+        }
+      ],
+      "section": "Feelings",
+      "titleId": "Onboarding.Sources.Title",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "HearAboutUs",
+      "leftImage": "",
+      "labelAlign": "start",
+      "nextButton": true,
+      "subtitleId": "",
+      "nextButtonId": "Onboarding.Sources.Button",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": true,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "AchieveResults": {
+      "id": "01K42HN5AMRKDHJ1C02HVBSXT1",
+      "type": "other",
+      "image": "",
+      "order": 46,
+      "section": "Final",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "AchieveResults",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "achieve-results.webp",
+        "rating.svg"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "MillionUsers": {
+      "id": "01K42HQGCV4X47B9YRJ3R5NVJ5",
+      "type": "other",
+      "image": "",
+      "order": 47,
+      "section": "Final",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "MillionUsers",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "app-store-circle.svg",
+        "play-market.svg",
+        "star-rating.svg",
+        "location.svg",
+        "verified.svg"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": false,
+      "subtitleHighlightContent": []
+    },
+    "OneWeek": {
+      "id": "01K42HSV3QSPWENGEW7HPB8YW1",
+      "type": "other",
+      "image": "",
+      "order": 48,
+      "section": "Final",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "OneWeek",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "lasting-result.webp",
+        "emoji-calendar.webp",
+        "alarm-emoji.webp",
+        "pencil-emoji.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "RidOf": {
+      "id": "01K42HXXHST9PWN0CK15K79HC6",
+      "type": "other",
+      "image": "",
+      "order": 49,
+      "section": "Final",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "RidOf",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": false,
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "Elimination": {
+      "id": "01K42J0YM9X6JEV21V8VVMAEBB",
+      "type": "other",
+      "image": "",
+      "order": 50,
+      "section": "Final",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "Elimination",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "doctor.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "BoostResult": {
+      "id": "01K42J26V3ZF1362QBS1SQYMZP",
+      "type": "other",
+      "image": "",
+      "order": 51,
+      "section": "Final",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "BoostResult",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "boost-result-steps.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "UniqueTechnologies": {
+      "id": "01K42J4ABHSGHCB6Y1A13G85R7",
+      "type": "other",
+      "image": "",
+      "order": 52,
+      "section": "Final",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "UniqueTechnologies",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": true,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "challenges.webp",
+        "ar-exercises.webp",
+        "discover.webp",
+        "motivation.webp"
+      ],
+      "showPreviousPress": true,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": true,
+      "subtitleHighlightContent": []
+    },
+    "EnterEmail": {
+      "id": "01K42J6G19559H5SEFVNJBWQ5M",
+      "type": "other",
+      "image": "",
+      "order": 61,
+      "section": "Final",
+      "titleId": "",
+      "funnelId": "5fdf4789-c593-400f-b1ce-a59299a573ad",
+      "stepName": "EnterEmail",
+      "leftImage": "",
+      "labelAlign": "start",
+      "subtitleId": "",
+      "nextButtonId": "",
+      "optionVariant": "rectangle",
+      "showBurgerMenu": false,
+      "showStepHeader": false,
+      "showProgressBar": false,
+      "imagesForPreload": [
+        "members.webp"
+      ],
+      "showPreviousPress": false,
+      "skipOptionLabelId": "",
+      "showOnboardingHeader": false,
+      "subtitleHighlightContent": []
+    }
+  }
+}

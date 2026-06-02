@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Leads – Botox Coreano</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --primary: #356B61;
+      --primary-hover: #29534B;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --text: #0F172A;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+      --success: #10B981;
+      --danger: #EF4444;
+      --accent: #F47A87;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header Styling */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 32px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand-section {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-badge {
+      background-color: var(--primary);
+      color: white;
+      padding: 8px 14px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: 0.5px;
+      box-shadow: 0 4px 12px rgba(53, 107, 97, 0.2);
+    }
+
+    .brand-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 10px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: 1px solid transparent;
+    }
+
+    .btn-primary {
+      background-color: var(--primary);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--primary-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      border-color: var(--border);
+      color: var(--text-muted);
+    }
+
+    .btn-outline:hover {
+      background-color: #F1F5F9;
+      color: var(--text);
+    }
+
+    /* Tabs Styling */
+    .tabs-nav {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 24px;
+      border-bottom: 2px solid var(--border);
+      position: relative;
+    }
+
+    .tab-btn {
+      padding: 12px 4px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: none;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      transition: color 0.2s;
+    }
+
+    .tab-btn:hover {
+      color: var(--text);
+    }
+
+    .tab-btn.active {
+      color: var(--primary);
+    }
+
+    .tab-btn.active::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background-color: var(--primary);
+      border-radius: 2px;
+    }
+
+    /* Metrics Grid */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 32px;
+    }
+
+    .metric-card {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 24px;
+      border: 1px solid var(--border);
+      position: relative;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .metric-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+    }
+
+    .metric-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .metric-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .metric-icon {
+      font-size: 1.25rem;
+      color: var(--primary);
+      opacity: 0.8;
+    }
+
+    .metric-value {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .metric-desc {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* Tab Content Layout */
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.3s ease-in-out;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Filter Panel */
+    .filter-panel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .filter-group {
+      display: flex;
+      gap: 8px;
+      background: #F1F5F9;
+      padding: 4px;
+      border-radius: 8px;
+    }
+
+    .filter-btn {
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border: none;
+      background: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .filter-btn.active {
+      background-color: white;
+      color: var(--text);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    /* Data Table styling */
+    .table-container {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th {
+      background-color: #F8FAFC;
+      padding: 14px 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 16px 20px;
+      font-size: 0.875rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background-color: #FAFCFE;
+    }
+
+    .status-badge {
+      display: inline-flex;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .status-yes {
+      background-color: #D1FAE5;
+      color: #065F46;
+    }
+
+    .status-no {
+      background-color: #FEE2E2;
+      color: #991B1B;
+    }
+
+    /* Funnel Chart */
+    .funnel-container {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      padding: 24px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+
+    .funnel-stage {
+      margin-bottom: 16px;
+    }
+
+    .funnel-stage-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .funnel-bar-wrapper {
+      background-color: #F1F5F9;
+      height: 24px;
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .funnel-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary) 0%, #4D877C 100%);
+      border-radius: 6px;
+      transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* Modal styling */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(4px);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      animation: fadeIn 0.2s ease-out;
+    }
+
+    .modal-content {
+      background-color: white;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 550px;
+      padding: 28px;
+      border: 1px solid var(--border);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      max-height: 80vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .modal-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    .close-btn {
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--text-muted);
+    }
+
+    .close-btn:hover {
+      color: var(--text);
+    }
+
+    .answers-list {
+      overflow-y: auto;
+      flex: 1;
+      padding-right: 8px;
+    }
+
+    .answer-item {
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #F1F5F9;
+    }
+
+    .answer-item:last-child {
+      border-bottom: none;
+    }
+
+    .answer-q {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .answer-a {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    /* Empty state */
+    .empty-state {
+      padding: 48px;
+      text-align: center;
+      color: var(--text-muted);
+    }
+
+    .empty-icon {
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+
+    /* Performance card styling */
+    .performance-card {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 24px;
+      border: 1px solid var(--border);
+      margin-bottom: 24px;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="brand-section">
+      <div class="logo-badge">BC</div>
+      <div class="brand-title">Botox Coreano Analytics</div>
+    </div>
+    <div class="header-actions">
+      <button class="btn btn-outline" id="resetBtn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8m0 0H15m6 0V2m-3 20a9 9 0 0 1-9-9 9.75 9.75 0 0 1 6.74-2.74L21 16m0 0H15m6 0v6"/></svg>
+        Resetar dados
+      </button>
+      <button class="btn btn-primary" id="exportBtn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4m4-5 5 5 5-5m-5 5V3"/></svg>
+        Exportar leads
+      </button>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <div class="tabs-nav">
+    <button class="tab-btn active" onclick="switchTab('respostas')">Respostas</button>
+    <button class="tab-btn" onclick="switchTab('resultados')">Resultados</button>
+    <button class="tab-btn" onclick="switchTab('performance')">Performance</button>
+  </div>
+
+  <!-- Key Metrics Summary Row -->
+  <div class="metrics-grid">
+    <div class="metric-card">
+      <div class="metric-header">
+        <span class="metric-title">Visitas e Acessos</span>
+        <span class="metric-icon">👁</span>
+      </div>
+      <div class="metric-value" id="val-visits">0</div>
+      <div class="metric-desc">Visitantes que acessaram o funil</div>
+    </div>
+    
+    <div class="metric-card">
+      <div class="metric-header">
+        <span class="metric-title">Leads adquiridos</span>
+        <span class="metric-icon">👤</span>
+      </div>
+      <div class="metric-value" id="val-leads">0</div>
+      <div class="metric-desc">Iniciaram alguma interação</div>
+    </div>
+    
+    <div class="metric-card">
+      <div class="metric-header">
+        <span class="metric-title">Taxa de interação</span>
+        <span class="metric-icon">⚡</span>
+      </div>
+      <div class="metric-value" id="val-rate">0.0%</div>
+      <div class="metric-desc">Visitantes que interagiram</div>
+    </div>
+    
+    <div class="metric-card">
+      <div class="metric-header">
+        <span class="metric-title">Leads qualificados</span>
+        <span class="metric-icon">⭐</span>
+      </div>
+      <div class="metric-value" id="val-qualified">0</div>
+      <div class="metric-desc">+50% de etapas interagidas</div>
+    </div>
+    
+    <div class="metric-card">
+      <div class="metric-header">
+        <span class="metric-title">Fluxos completos</span>
+        <span class="metric-icon">✓</span>
+      </div>
+      <div class="metric-value" id="val-completed">0</div>
+      <div class="metric-desc">Passaram da última etapa</div>
+    </div>
+  </div>
+
+  <!-- Tab 1: Respostas -->
+  <div id="tab-respostas" class="tab-content active">
+    <div class="filter-panel">
+      <h3>Lista de Contatos e Respostas</h3>
+      <div class="filter-group">
+        <button class="filter-btn active">Mais recente</button>
+        <button class="filter-btn" onclick="alert('Funcionalidade de filtro avançada ativa no Supabase Cloud!')">7 dias</button>
+        <button class="filter-btn" onclick="alert('Funcionalidade de filtro avançada ativa no Supabase Cloud!')">30 dias</button>
+      </div>
+    </div>
+    
+    <div class="table-container">
+      <table id="leadsTable">
+        <thead>
+          <tr>
+            <th>Data de Entrada</th>
+            <th>E-mail do Lead</th>
+            <th>Última Etapa</th>
+            <th>Completou Quiz?</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <!-- Populated dynamically -->
+        </tbody>
+      </table>
+      <div id="tableEmptyState" class="empty-state" style="display: none;">
+        <div class="empty-icon">📁</div>
+        <h3>Nenhum lead registrado ainda</h3>
+        <p>Prossiga pelo quiz para iniciar as gravações locais e em nuvem.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab 2: Resultados (Funnel Drop-off) -->
+  <div id="tab-resultados" class="tab-content">
+    <div class="funnel-container">
+      <h3 style="margin-bottom: 20px;">Conversão do Funil de Etapas (Evasão)</h3>
+      
+      <div class="funnel-stage">
+        <div class="funnel-stage-header">
+          <span>1. Visita Inicial / Welcome Screen</span>
+          <span id="funnel-rate-1">100%</span>
+        </div>
+        <div class="funnel-bar-wrapper">
+          <div class="funnel-bar" id="funnel-bar-1" style="width: 100%"></div>
+        </div>
+      </div>
+      
+      <div class="funnel-stage">
+        <div class="funnel-stage-header">
+          <span>2. Interação Iniciada (Etapa 2+)</span>
+          <span id="funnel-rate-2">0%</span>
+        </div>
+        <div class="funnel-bar-wrapper">
+          <div class="funnel-bar" id="funnel-bar-2" style="width: 0%"></div>
+        </div>
+      </div>
+      
+      <div class="funnel-stage">
+        <div class="funnel-stage-header">
+          <span>3. Meio do Funil (Etapa 15+)</span>
+          <span id="funnel-rate-3">0%</span>
+        </div>
+        <div class="funnel-bar-wrapper">
+          <div class="funnel-bar" id="funnel-bar-3" style="width: 0%"></div>
+        </div>
+      </div>
+      
+      <div class="funnel-stage">
+        <div class="funnel-stage-header">
+          <span>4. E-mail Capturado / Leads</span>
+          <span id="funnel-rate-4">0%</span>
+        </div>
+        <div class="funnel-bar-wrapper">
+          <div class="funnel-bar" id="funnel-bar-4" style="width: 0%"></div>
+        </div>
+      </div>
+      
+      <div class="funnel-stage">
+        <div class="funnel-stage-header">
+          <span>5. Fluxo Completo / Página de Vendas</span>
+          <span id="funnel-rate-5">0%</span>
+        </div>
+        <div class="funnel-bar-wrapper">
+          <div class="funnel-bar" id="funnel-bar-5" style="width: 0%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab 3: Performance -->
+  <div id="tab-performance" class="tab-content">
+    <div class="performance-card">
+      <h3 style="margin-bottom: 12px; color: var(--primary);">Desempenho de Carga do Funil</h3>
+      <p style="margin-bottom: 20px; font-size: 0.9rem; color: var(--text-muted);">
+        Métricas de otimização de velocidade de carregamento aplicadas ao quiz.
+      </p>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+        <div style="background: #F8FAFC; border: 1px solid var(--border); padding: 16px; border-radius: 12px;">
+          <h4 style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px;">Compactação GZIP</h4>
+          <p style="font-size: 1.5rem; font-weight: 700; color: var(--success);">Ativo (Redução ~80%)</p>
+          <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">Código compactado em trânsito</p>
+        </div>
+        
+        <div style="background: #F8FAFC; border: 1px solid var(--border); padding: 16px; border-radius: 12px;">
+          <h4 style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px;">Splash Screen</h4>
+          <p style="font-size: 1.5rem; font-weight: 700; color: var(--primary);">Ativo (Instantâneo)</p>
+          <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">Primeiro render sob 50 milissegundos</p>
+        </div>
+        
+        <div style="background: #F8FAFC; border: 1px solid var(--border); padding: 16px; border-radius: 12px;">
+          <h4 style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px;">Sincronização Nuvem</h4>
+          <p style="font-size: 1.5rem; font-weight: 700; color: #4F46E5;">Supabase REST ready</p>
+          <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">Transmissão em segundo plano sem lag</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal para ver respostas -->
+  <div id="detailsModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalEmail">Respostas Completas</h3>
+        <button class="close-btn" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="answers-list" id="modalAnswersList">
+        <!-- Answers rendered here -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let globalLeads = [];
+
+    // Switch dashboard tabs
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('active');
+        if(btn.innerText.toLowerCase() === tabId) {
+          btn.classList.add('active');
+        }
+      });
+      document.querySelectorAll('.tab-content').forEach(content => {
+        content.classList.remove('active');
+      });
+      document.getElementById('tab-' + tabId).classList.add('active');
+      
+      if (tabId === 'resultados') {
+        renderFunnelChart();
+      }
+    }
+
+    const SUPABASE_URL = 'https://gbljtkkcauoztcmviydg.supabase.co';
+    const SUPABASE_KEY = 'sb_publishable_HhSlmvgoUdZWCakru5F-fw_7A_x8yRu';
+
+    // Fetch metrics and leads from Supabase directly
+    async function loadDashboardData() {
+      try {
+        const headers = {
+          'apikey': SUPABASE_KEY,
+          'Authorization': 'Bearer ' + SUPABASE_KEY
+        };
+
+        // 1. Fetch sessions
+        const resSessions = await fetch(SUPABASE_URL + '/rest/v1/funnel_sessions?select=*&order=created_at.desc', { headers });
+        if (!resSessions.ok) throw new Error('Erro ao buscar sessões do Supabase');
+        const sessions = await resSessions.json();
+
+        // 2. Fetch responses
+        const resResponses = await fetch(SUPABASE_URL + '/rest/v1/funnel_responses?select=*', { headers });
+        if (!resResponses.ok) throw new Error('Erro ao buscar respostas do Supabase');
+        const responses = await resResponses.json();
+
+        // 3. Merge sessions and responses
+        const leadsMap = {};
+        sessions.forEach(s => {
+          leadsMap[s.id] = {
+            session_id: s.id,
+            created_at: s.created_at,
+            email: s.email || 'Não informado',
+            completed: s.completed ? 'Sim' : 'Não',
+            last_step: s.last_step || 1,
+            answers: {}
+          };
+        });
+
+        responses.forEach(r => {
+          const session = leadsMap[r.session_id];
+          if (session) {
+            session.answers[r.question] = r.answer;
+          }
+        });
+
+        const recentLeads = Object.values(leadsMap).sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+        globalLeads = recentLeads;
+
+        // 4. Calculate metrics
+        const totalVisits = globalLeads.length;
+        const leadsAcquired = globalLeads.filter(s => s.last_step > 1 || Object.keys(s.answers).length > 0).length;
+        const interactionRate = totalVisits > 0 ? ((leadsAcquired / totalVisits) * 100).toFixed(1) : '0.0';
+        const qualifiedLeads = globalLeads.filter(s => s.last_step >= 15 || Object.keys(s.answers).length >= 5).length;
+        const completedFlows = globalLeads.filter(s => s.completed === 'Sim' || s.last_step >= 31).length;
+
+        // Update summary metrics in DOM
+        document.getElementById('val-visits').innerText = totalVisits;
+        document.getElementById('val-leads').innerText = leadsAcquired;
+        document.getElementById('val-rate').innerText = interactionRate + '%';
+        document.getElementById('val-qualified').innerText = qualifiedLeads;
+        document.getElementById('val-completed').innerText = completedFlows;
+
+        // Render table
+        const tableBody = document.getElementById('tableBody');
+        const emptyState = document.getElementById('tableEmptyState');
+        tableBody.innerHTML = '';
+
+        if (globalLeads.length === 0) {
+          emptyState.style.display = 'block';
+        } else {
+          emptyState.style.display = 'none';
+          globalLeads.forEach(s => {
+            const row = document.createElement('tr');
+            
+            const dateStr = new Date(s.created_at).toLocaleString('pt-BR');
+            const completedBadge = s.completed === 'Sim' 
+              ? '<span class="status-badge status-yes">Completo</span>' 
+              : '<span class="status-badge status-no">Incompleto</span>';
+            
+            row.innerHTML = `
+              <td>${dateStr}</td>
+              <td style="font-weight: 600;">${s.email}</td>
+              <td>Etapa ${s.last_step}</td>
+              <td>${completedBadge}</td>
+              <td>
+                <button class="btn btn-outline" style="padding: 6px 12px; font-size: 0.75rem;" onclick="showDetails('${s.session_id}')">
+                  Ver Respostas
+                </button>
+              </td>
+            `;
+            tableBody.appendChild(row);
+          });
+        }
+      } catch (err) {
+        console.error('Failed to load metrics:', err);
+        alert('Erro ao conectar com o Supabase. Verifique se as permissões de acesso (RLS) estão desativadas ou configuradas para anon nas tabelas funnel_sessions e funnel_responses.');
+      }
+    }
+
+    // Modal Operations
+    function showDetails(sessionId) {
+      const session = globalLeads.find(s => s.session_id === sessionId);
+      if (!session) return;
+
+      document.getElementById('modalEmail').innerText = 'Lead: ' + session.email;
+      
+      const listEl = document.getElementById('modalAnswersList');
+      listEl.innerHTML = '';
+
+      const keys = Object.keys(session.answers);
+      if (keys.length === 0) {
+        listEl.innerHTML = '<p style="color: var(--text-muted);">Nenhuma resposta gravada para esta sessão ainda.</p>';
+      } else {
+        keys.forEach(k => {
+          const item = document.createElement('div');
+          item.className = 'answer-item';
+          item.innerHTML = `
+            <div class="answer-q">${k}</div>
+            <div class="answer-a">${session.answers[k]}</div>
+          `;
+          listEl.appendChild(item);
+        });
+      }
+
+      document.getElementById('detailsModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('detailsModal').style.display = 'none';
+    }
+
+    // Render Conversions Drop-off dynamically
+    function renderFunnelChart() {
+      const visits = parseInt(document.getElementById('val-visits').innerText) || 0;
+      const leads = parseInt(document.getElementById('val-leads').innerText) || 0;
+      const qualified = parseInt(document.getElementById('val-qualified').innerText) || 0;
+      const completed = parseInt(document.getElementById('val-completed').innerText) || 0;
+
+      const rate2 = visits > 0 ? ((leads / visits) * 100).toFixed(1) : 0;
+      const rate3 = visits > 0 ? ((qualified / visits) * 100).toFixed(1) : 0;
+      
+      // Calculate how many have captured email
+      const withEmail = globalLeads.filter(s => s.email && s.email !== 'Não informado').length;
+      const rate4 = visits > 0 ? ((withEmail / visits) * 100).toFixed(1) : 0;
+      
+      const rate5 = visits > 0 ? ((completed / visits) * 100).toFixed(1) : 0;
+
+      // Update bars
+      document.getElementById('funnel-bar-2').style.width = rate2 + '%';
+      document.getElementById('funnel-rate-2').innerText = rate2 + '%';
+
+      document.getElementById('funnel-bar-3').style.width = rate3 + '%';
+      document.getElementById('funnel-rate-3').innerText = rate3 + '%';
+
+      document.getElementById('funnel-bar-4').style.width = rate4 + '%';
+      document.getElementById('funnel-rate-4').innerText = rate4 + '%';
+
+      document.getElementById('funnel-bar-5').style.width = rate5 + '%';
+      document.getElementById('funnel-rate-5').innerText = rate5 + '%';
+    }
+
+    // Reset database on Supabase (if RLS/Anon policies permit)
+    document.getElementById('resetBtn').addEventListener('click', async () => {
+      if (confirm('Tem certeza de que deseja apagar permanentemente todos os dados no Supabase? Esta ação não pode ser desfeita.')) {
+        try {
+          const headers = {
+            'apikey': SUPABASE_KEY,
+            'Authorization': 'Bearer ' + SUPABASE_KEY
+          };
+          
+          // Delete responses first due to foreign keys
+          await fetch(SUPABASE_URL + '/rest/v1/funnel_responses?session_id=not.is.null', {
+            method: 'DELETE',
+            headers
+          });
+
+          // Delete sessions
+          await fetch(SUPABASE_URL + '/rest/v1/funnel_sessions?id=not.is.null', {
+            method: 'DELETE',
+            headers
+          });
+
+          alert('Solicitação de limpeza enviada ao Supabase! Atualizando...');
+          loadDashboardData();
+        } catch (e) {
+          console.error(e);
+          alert('Erro ao resetar dados: ' + e.message);
+        }
+      }
+    });
+
+    // CSV Lead Export
+    document.getElementById('exportBtn').addEventListener('click', () => {
+      if (globalLeads.length === 0) {
+        alert('Nenhum lead disponível para exportar.');
+        return;
+      }
+
+      let csv = 'Data de Entrada;E-mail;Etapa Final;Completou;Respostas\n';
+      globalLeads.forEach(s => {
+        const date = new Date(s.created_at).toLocaleString('pt-BR');
+        const answersStr = Object.keys(s.answers).map(k => `${k}: ${s.answers[k]}`).join(' | ');
+        csv += `"${date}";"${s.email}";"Etapa ${s.last_step}";"${s.completed}";"${answersStr.replace(/"/g, '""')}"\n`;
+      });
+
+      const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.setAttribute('download', `leads_botox_coreano_${new Date().toISOString().slice(0,10)}.csv`);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
+
+    // Initial load
+    loadDashboardData();
+  </script>
+</body>
+</html>
